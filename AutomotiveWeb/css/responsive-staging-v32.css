@@ -1,0 +1,2747 @@
+.t_condition h1 {
+    font-size: 28px;
+    font-weight: 700
+}
+
+.app-slier-mobile,
+.myrevoltapp-mob {
+    display: none
+}
+
+@media only screen and (min-width:2200px) {
+    .viewer {
+        height: 1264px;
+        margin: -90px auto 0;
+        width: 100%
+    }
+}
+
+@media only screen and (min-width:1800px) and (max-width:2200px) {
+    .viewer {
+        height: 940px;
+        margin: -90px auto 0;
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    .banner_content {
+        padding: 60px 15px 0
+    }
+    .bk_start {
+        font-size: 30px;
+        padding: 30px 0 0
+    }
+    .timer_set_row {
+        padding: 26px 0 0;
+        width: 760px
+    }
+    .counting_item {
+        height: 60px;
+        width: 60px
+    }
+    .counting_item p {
+        font-size: 22px
+    }
+    .counting_item span {
+        font-size: 10px
+    }
+    .bike_price_section img {
+        max-width: 1000px
+    }
+    .dealerinfo-block p strong {
+        font-size: 16px
+    }
+    .dealerinfo-block p {
+        font-size: 14px;
+        line-height: 26px
+    }
+    .alert_box p {
+        font-size: 18px !important
+    }
+    .dealersec .nav-tabs .nav-link {
+        font-size: 14px;
+        padding: 10px 0
+    }
+}
+
+@media only screen and (max-width:1368px) {
+    .banner_content {
+        padding: 40px 15px 0
+    }
+    .bk_start {
+        font-size: 26px;
+        padding: 20px 0 0
+    }
+    .timer_set_row {
+        padding: 20px 0 0;
+        width: 530px
+    }
+    .timer_item h4 {
+        font-size: 16px
+    }
+    .counting_item {
+        border-radius: 6px;
+        height: 46px;
+        width: 46px
+    }
+    .timer_item .counting_item:nth-child(2) {
+        margin: 0 6px
+    }
+    .counting_item p {
+        font-size: 18px
+    }
+    .counting_item span {
+        font-size: 8px
+    }
+    .bike_price_section {
+        padding: 35px 0 0
+    }
+    .bike_price_section img {
+        max-width: 850px
+    }
+}
+
+@media only screen and (min-width:1367px) {
+    .sec-cmn-height {
+        min-height: 60vh
+    }
+    .angle ul li {
+        border: 1px solid #d8d2d2
+    }
+    #rv-400-gallery .owl-next {
+        right: 22%
+    }
+    #rv-400-gallery .owl-prev {
+        left: 22%
+    }
+    #rv-400-gallery .owl-next .banner-sec #custvideo {
+        -o-object-position: 34% 0;
+        object-position: 34% 0
+    }
+    .mobile-nav {
+        padding-left: 170px
+    }
+    footer {
+        font-size: 16px;
+        line-height: normal
+    }
+    .true-auto-mobile {
+        font-size: 20px;
+        line-height: normal
+    }
+    .font55 {
+        font-size: 65px
+    }
+    .mobile-nav .collepslogo {
+        left: 170px
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .content_page ul {
+        margin: 0;
+        padding: 0 0 0 18px
+    }
+    .angle ul li {
+        border: 1px solid #d8d2d2
+    }
+    .small_container {
+        width: 800px
+    }
+    .page_title_invite p {
+        font-size: 18px
+    }
+    .page_title_invite h4 {
+        font-size: 24px
+    }
+    .form_label {
+        font-size: 14px
+    }
+    .form_wrp .form-control {
+        height: 40px
+    }
+    .form_wrp .coloumn_row label.error {
+        font-size: 14px !important
+    }
+    .form_btn .btn {
+        font-size: 16px;
+        padding: 10px 0
+    }
+    .dealerinfo-block p strong {
+        font-size: 14px
+    }
+    .dealerinfo-block p {
+        font-size: 14px;
+        line-height: 26px
+    }
+    .alert_box p {
+        font-size: 16px !important
+    }
+    .dealersec .nav-tabs .nav-link {
+        font-size: 13px;
+        padding: 10px 0
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    li.explorebikenow {
+        width: 170px !important
+    }
+    .explorebikenow a {
+        margin: 0
+    }
+    #rv-400-gallery .owl-next {
+        right: 27%
+    }
+    #rv-400-gallery .owl-prev {
+        left: 27%
+    }
+    .our-motorcycles #productinfo .owl-prev {
+        left: -120px
+    }
+    .our-motorcycles #productinfo .owl-next {
+        right: -120px
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .slide_text {
+        width: 40%
+    }
+    .sec-cmn-height {
+        min-height: unset
+    }
+    #hittheroad .sec-cmn-height {
+        min-height: 500px
+    }
+    .angle ul li {
+        margin: 20px 10px 0;
+        max-width: 170px
+    }
+    .moto-details h3 {
+        font-size: 16px
+    }
+    .our-motorcycles #productinfo .item {
+        min-height: auto !important
+    }
+    .our-motorcycles #productinfo .item .blacktheme,
+    .our-motorcycles #productinfo .item .blacktheme.rv-300,
+    .our-motorcycles #productinfo .item .redtheme,
+    .our-motorcycles #productinfo .item .redtheme.rv-300,
+    .our-motorcycles #productinfo .item .whitetheme {
+        background-size: auto 130px
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext h5 {
+        font-size: 40px;
+        line-height: normal
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext p {
+        font-size: 20px
+    }
+    .banner-sec {
+        height: auto
+    }
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+        width: 100%
+    }
+    .your-interest .queryform {
+        position: relative
+    }
+    header {
+        width: 100px
+    }
+    header .logo-and-menu .logo50 {
+        margin: 15px 0
+    }
+    header .logo-and-menu .logo50 img {
+        width: 100%
+    }
+    .revolution-mathcing {
+        padding: 20px 0
+    }
+    .the-revolution .bannerfont {
+        font-size: 60px
+    }
+    .rv_community_wrp {
+        margin-bottom: 50px
+    }
+    .sec-gap,
+    .sec-gap.first-sec,
+    .sec-gap.last-sec,
+    .the-revolt-impact .click-and-flick-outer {
+        padding: 20px 0
+    }
+    .revolution-in-dna {
+        font-size: 14px
+    }
+    .the-revolution .gradlink {
+        margin: 20px 0
+    }
+    .inner-page-reg .rev-queryform {
+        padding: 0 15px
+    }
+    .our-motorcycles #productinfo .owl-prev {
+        left: -80px
+    }
+    .our-motorcycles #productinfo .owl-next {
+        right: -80px
+    }
+    .viewer {
+        height: 500px;
+        margin: -30px auto 0;
+        width: 100%
+    }
+    .small_container {
+        padding-bottom: 80px;
+        width: 800px
+    }
+    .alert_box {
+        padding: 50px 15px
+    }
+    .mobile_scroll .nav-tabs .nav-item {
+        margin: 10px 6px;
+        min-width: 150px
+    }
+    .mobile_scroll .nav-tabs .nav-link {
+        font-size: 12px;
+        padding: 8px 0
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .slidertext {
+        width: 100%
+    }
+    .tabs_switch ul.tabs_btn li a {
+        font-size: 14px;
+        font-weight: 600;
+        height: 100%;
+        padding: 9px 10px;
+        width: 100%
+    }
+    .bikeandfeature,
+    .burder_wrapper {
+        height: auto;
+        padding: 50px 0
+    }
+    .main-wrapper#content {
+        top: 70px !important
+    }
+    .navcontent .closenav {
+        display: block
+    }
+    .our-motorcycles #productinfo .owl-next {
+        right: 0
+    }
+    #rv-400-gallery .owl-next {
+        right: 17%
+    }
+    #rv-400-gallery .owl-prev {
+        left: 17%
+    }
+    .our-motorcycles #productinfo .owl-prev {
+        left: 0
+    }
+    #hittheroad .sec-cmn-height {
+        min-height: 400px
+    }
+    .charging-sec {
+        height: 430px
+    }
+    .the-revolution {
+        margin-top: 30px
+    }
+    .the-revolution .bannerfont {
+        font-size: 35px;
+        line-height: 38px
+    }
+    .revolution-in-dna h3 {
+        font-size: 40px;
+        line-height: 40px
+    }
+    .font55 {
+        font-size: 45px;
+        line-height: 45px
+    }
+    .font52 {
+        font-size: 42px;
+        line-height: 42px
+    }
+    .font31 {
+        font-size: 24px
+    }
+    .goto-top {
+        right: 10px
+    }
+    .bikeimage-sec img {
+        max-width: 100%;
+        width: 100%
+    }
+    .the-revolution {
+        width: 84%
+    }
+    .viewer {
+        height: 500px;
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .mobile_scroll .nav-tabs .nav-item {
+        min-width: 110px
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .our-motorcycles #productinfo .owl-nav {
+        right: -5%;
+        top: 40%
+    }
+    .progress {
+        height: 26px;
+        margin-bottom: 20px
+    }
+    .main-sec,
+    .main-wrapper,
+    header {
+        width: 100%
+    }
+    header {
+        height: auto;
+        padding: 0;
+        position: relative
+    }
+    .fixedmenu {
+        margin: 0;
+        padding: 0 15px;
+        position: static;
+        width: 100%
+    }
+    header .logo-and-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 15px
+    }
+    header .logo-and-menu .burger-menu,
+    header .logo-and-menu .logo50 {
+        margin: 0;
+        padding: 0
+    }
+    .rv-bikemenu {
+        display: none !important;
+        width: 40px
+    }
+    .mainnavigation.showhidenav {
+        overflow-y: scroll;
+        width: 100%
+    }
+    .navcontent .closenav {
+        right: 45px
+    }
+}
+
+@media only screen and (max-width:840px) {
+    .our-motorcycles #productinfo .owl-nav {
+        right: 2%;
+        top: 30%
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .mbl_padd_P {
+        padding-bottom: 30px !important
+    }
+    .font25 {
+        font-size: 22px
+    }
+    .image-360 {
+        min-width: 320px;
+        width: 50%
+    }
+    .our-motorcycles #productinfo .owl-nav {
+        background: #0000;
+        border: none !important;
+        height: unset;
+        padding: unset;
+        position: unset;
+        right: unset;
+        top: unset;
+        width: unset;
+        z-index: unset
+    }
+    .our-motorcycles #productinfo .owl-next {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 110px
+    }
+    .our-motorcycles #productinfo .owl-prev {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 110px
+    }
+    .battery-specs {
+        width: 90%
+    }
+    .tabs_wrapper {
+        margin: 10px 0 !important
+    }
+    .tabs_switch ul.tabs_btn li a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 12px;
+        font-weight: 600;
+        height: 100%;
+        line-height: normal;
+        padding: 9px 10px;
+        width: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .our-motorcycles #productinfo .owl-nav {
+        right: 4%
+    }
+    .digital-ins-sec,
+    .rv300tyresec {
+        width: 95% !important
+    }
+    .slide_tnew.Combination-Braking {
+        width: 100%
+    }
+    .dealerinfo div div:nth-child(2) div.dealerinfo-block {
+        border-right: 0
+    }
+    .adjusterbox-wrap .adjusterbox,
+    .adjusterbox-wrap .adjusterbox:nth-child(2) {
+        width: 100%
+    }
+    .adjusterbox-wrap .adjusterbox img {
+        max-width: 100%;
+        width: 100%
+    }
+    .adjusterbox-wrap .adjusterbox h4,
+    .adjusterbox-wrap .adjusterbox p {
+        padding-left: 0;
+        text-align: center
+    }
+    .threesixty {
+        -ms-touch-action: pan-y !important;
+        touch-action: pan-y !important
+    }
+    .aboutus-sec {
+        padding: 50px 0
+    }
+    .slide_text.theadjuster {
+        left: 0;
+        padding: 0 0 10px;
+        top: unset !important;
+        -webkit-transform: unset !important;
+        transform: unset !important;
+        width: 100%
+    }
+    .slide_text.ergonomics .right_position-hub {
+        margin: 0;
+        padding: 20px 0;
+        position: static;
+        right: unset;
+        text-align: center;
+        width: 100%
+    }
+    .slide_text h4 {
+        font-size: 24px;
+        padding: 20px 0 0
+    }
+    .slide_tabs_wrp.Headlampwrp .vhcl_lght+#video1 {
+        margin-top: -3px
+    }
+    .adjuster-switch {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .adjuster-switch .pedal_mode {
+        margin: 0 0 20px
+    }
+    .owl-carousel .owl-item {
+        width: 100%
+    }
+    .charging-second-section {
+        padding: 40px 0
+    }
+    .burger_menu {
+        margin-bottom: 50px;
+        padding: 0 30px
+    }
+    .chargingsec #custvideo1 {
+        height: auto;
+        width: 100%
+    }
+    .secgap {
+        padding: 20px 0
+    }
+    .rv-specification {
+        margin: 0;
+        padding: 10px 0
+    }
+    .owl-carousel .owl-item img {
+        height: auto
+    }
+    .rv-features {
+        background: #fff
+    }
+    .app-slier-mobile {
+        display: block;
+        padding: 20px 15px 0
+    }
+    .app-slier-mobile .tab_title_view h3 {
+        font-size: 16px;
+        text-align: center
+    }
+    .app-slier-mobile .tab_txt_view p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center
+    }
+    .owl_cstm_style .item {
+        overflow: scroll
+    }
+    .slide_text {
+        left: unset;
+        padding: 0 0 60px;
+        position: static;
+        top: unset;
+        -webkit-transform: unset;
+        transform: unset;
+        width: 100%
+    }
+    .rightbar_slide picture img {
+        height: auto;
+        min-height: 280px
+    }
+    .swiper-pagination-bullets-dynamic {
+        display: none
+    }
+    .swiper-wrapper {
+        display: block;
+        float: none;
+        height: unset;
+        padding: 0 0 50px;
+        -webkit-transition: unset;
+        transition: unset;
+        width: 100%
+    }
+    .swiper-container {
+        overflow: scroll
+    }
+    .swiper-slide {
+        display: block;
+        height: auto !important;
+        padding: 0 0 30px
+    }
+    .adjusterbox-outer .container {
+        padding: 0
+    }
+    .adjusterbox-outer {
+        background: #fff
+    }
+    .slide_text,
+    .slide_text.black_txt,
+    .slide_text.ergonomics,
+    .slide_tnew.suspension-caption {
+        color: #000;
+        opacity: 1;
+        text-align: center;
+        -webkit-transform: initial;
+        transform: none
+    }
+    #manuvering_05 {
+        -o-object-position: unset;
+        object-position: unset
+    }
+    .slide_text p br,
+    .slide_text.ergonomics p br {
+        display: none
+    }
+    .slide_text.left_center {
+        text-align: center !important;
+        width: 100%
+    }
+    .slide_text.Headlamptext {
+        width: 100%
+    }
+    .myrevoltapp-mob {
+        display: block
+    }
+    .myrevoltapp-desk {
+        display: none
+    }
+    .myrevoltapp .tab_txt_view p {
+        font-size: 12px;
+        line-height: 19px
+    }
+    .myrevoltapp .tabbar_sld_ftr li a {
+        font-size: 12px
+    }
+    .txt_vdo_itm .sld_txt.Balanced-right,
+    .txt_vdo_itm .sld_txt.powerhouse {
+        position: static
+    }
+    .rv-feature-nav .tab-content .rv-bikedetails .vert-text {
+        float: none;
+        font-size: 15px;
+        height: auto;
+        left: unset;
+        margin: 0;
+        padding: 0;
+        position: static;
+        text-align: center;
+        top: unset;
+        -webkit-transform: unset;
+        transform: unset;
+        width: 100%;
+        -webkit-writing-mode: horizontal-tb
+    }
+    .tab_mbl_view {
+        margin: 0 auto;
+        width: 180px
+    }
+    .sld_tb_app img {
+        max-width: 100%;
+        min-width: 100px;
+        width: 50%
+    }
+    .myrevoltapp .tab_txt_view p {
+        padding: 10px;
+        text-align: center
+    }
+    .sld_mbl_scrn_view {
+        display: block
+    }
+    .tab_txt_view {
+        margin-left: 0
+    }
+    .slide_tb_cnt {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 98%;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .owl_cstm_style .app-slier-mobile .owl-nav {
+        bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 50px;
+        left: 50%;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+    .owl_cstm_style .app-slier-mobile .tab_mbl_view {
+        width: 140px
+    }
+    .rv400-pagination {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 0;
+        padding: 20px;
+        position: static
+    }
+    .close-htr1 {
+        padding: 5px;
+        right: 5px;
+        top: 5px
+    }
+    .close-htr1 img {
+        cursor: pointer;
+        height: 34px;
+        width: 34px
+    }
+    .pedal_mode a {
+        color: #000
+    }
+    .pedal_mode a.active {
+        color: #fff
+    }
+    .slide_tabs_wrp.Headlampwrp {
+        display: block
+    }
+    .rv-feature-nav .tab-content .rv-bikedetails h3 {
+        font-size: 18px;
+        line-height: normal;
+        margin: 0;
+        padding: 5px 0
+    }
+    .rv-feature-nav .tab-content .rv-bikedetails h3 span {
+        display: inline-block;
+        font-size: 18px;
+        padding: 0 2px
+    }
+    .slide_tabs_wrp {
+        height: auto
+    }
+    .Headlampwrp .rightbar_slide picture img {
+        padding-bottom: 20px
+    }
+    .Headlampwrp .slide_text h4 {
+        padding-bottom: 40px
+    }
+    .slide_tabs_wrp .tabbar_sld_ftr.Headlamp-nav {
+        border: none;
+        bottom: auto;
+        right: 0;
+        top: 57px;
+        width: 100%
+    }
+    .slide_tabs_wrp .tabbar_sld_ftr.Headlamp-nav li.active:after {
+        display: none
+    }
+    .slide_tabs_wrp .tabbar_sld_ftr li.active a {
+        border-color: #414142
+    }
+    .slide_tabs_wrp .tabbar_sld_ftr.Headlamp-nav li a {
+        background: #000
+    }
+    .slide_tabs_wrp .tabbar_sld_ftr.Headlamp-nav li.active a {
+        background: #fff;
+        border: none
+    }
+    .slide_text.Headlamptext {
+        margin: 0;
+        padding: 0 15px
+    }
+    .h28 {
+        font-size: 22px
+    }
+    .h28,
+    .h34 {
+        padding: 0 0 30px
+    }
+    .h34 {
+        font-size: 24px
+    }
+    .bikeandfeature ul li a,
+    .bikeandfeature ul li span {
+        font-size: 18px
+    }
+    .burger_menu ul {
+        padding: 0
+    }
+    .angle {
+        width: 100%
+    }
+    .angle ul li a {
+        font-size: 16px
+    }
+    .rv-feature-nav {
+        padding: 0
+    }
+    .moto-details h3 {
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 15px 10px
+    }
+    .moto-details .imgbox:after {
+        height: 50px;
+        width: 50px
+    }
+    .news-subscribe {
+        width: 80%
+    }
+    .coummunity-accessorise .comacc-box {
+        min-height: auto;
+        width: 100%
+    }
+    .community-info {
+        padding: 90px 50px 140px
+    }
+    .mobile-block {
+        display: block
+    }
+    header .logo-and-menu {
+        padding: 0;
+        position: static;
+        text-align: center
+    }
+    .soundsec {
+        color: #fff;
+        position: absolute;
+        right: 3%;
+        top: 30%
+    }
+    .soundsec h3 {
+        font-size: 22px
+    }
+    .moto-details .app-ignition .motovideo {
+        position: static
+    }
+    .moto-details .app-ignition h3 {
+        font-size: 18px;
+        padding: 5px 0 15px
+    }
+    #video-modalbox {
+        top: 50px
+    }
+    .selectbikecolor .radio-inline {
+        font-size: 20px
+    }
+    footer {
+        padding: 25px 0
+    }
+    .goto-top {
+        display: none
+    }
+    .banner-sec {
+        height: auto !important;
+        min-height: 300px
+    }
+    .the-revolution {
+        margin-top: 50px;
+        width: 100%
+    }
+    .true-auto-mobile {
+        background-position: top -90px center;
+        background-size: 700px auto;
+        font-size: 16px
+    }
+    .d-block768 {
+        display: block !important
+    }
+    .mobile-orderchnage {
+        display: -ms-flexbox !important;
+        display: -webkit-box !important;
+        display: flex !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .mobile-orderchnage .pedal_mode {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        margin: 20px 0;
+        order: 1
+    }
+    .mobile-orderchnage.slide_text p {
+        -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+        order: 3
+    }
+    .mobile-orderchnage.slide_text h4 {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2
+    }
+    .mobile-orderchnage1 {
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -ms-flex-direction: column-reverse !important;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: reverse !important;
+        flex-direction: column-reverse !important
+    }
+    .true-auto-mobile .automobile {
+        padding-top: 110px
+    }
+    .our-motorcycles #productinfo .item,
+    .our-motorcycles #productinfo .item.blacktheme,
+    .our-motorcycles #productinfo .item.whitetheme {
+        background-size: 80%;
+        min-height: auto
+    }
+    .our-motorcycles #productinfo .bikeimg {
+        padding-top: 0
+    }
+    .revolution-in-dna h3 {
+        text-align: center
+    }
+    .revolution-in-dna h3 br {
+        display: none
+    }
+    .revolution-in-dna #revo-dna1 {
+        padding: 0;
+        width: 100%
+    }
+    .the-revolt-impact .click-and-flick-outer .click-and-flick .clickinfo h5 {
+        font-size: 20px;
+        line-height: 20px
+    }
+    .the-revolt-impact .click-and-flick-outer .click-and-flick .clickinfo h5 br {
+        display: none
+    }
+    .the-revolt-impact h3 sup {
+        font-size: 16px;
+        left: -2px;
+        top: -16px
+    }
+    .revolution-in-dna h3 {
+        font-size: 30px;
+        line-height: 30px
+    }
+    .font55 {
+        font-size: 35px;
+        line-height: 35px
+    }
+    .font52 {
+        font-size: 32px;
+        line-height: 32px
+    }
+    .font31 {
+        font-size: 20px
+    }
+    footer .getnews {
+        float: left;
+        width: 46%
+    }
+    footer .saving-info {
+        float: right;
+        padding: 0;
+        width: 40%
+    }
+    .mobhr {
+        border-top: 1px solid #525252;
+        margin-top: 10px;
+        padding: 10px 0
+    }
+    header {
+        background: #ffffffd4;
+        height: 80px;
+        padding: 0;
+        width: 100%
+    }
+    header .logo-and-menu .logo50 {
+        margin: 10px 15px;
+        width: 100px
+    }
+    .revolution-in-dna #revo-dna1 .item img {
+        height: 600px !important;
+        -o-object-fit: cover !important;
+        object-fit: cover !important
+    }
+    .the-revolt-impact.sec-gap,
+    .your-interest.sec-gap {
+        padding: 60px 0
+    }
+    .step1-sec,
+    .step2-sec,
+    .step3-sec {
+        padding: 30px 0
+    }
+    .modelsec h3 {
+        font-size: 30px
+    }
+    .order-and-amount .ord-range-del p strong {
+        font-size: 18px
+    }
+    .order-and-amount .ord-range-del p {
+        margin: 10px 0
+    }
+    .thankssec h3 {
+        font-size: 30px
+    }
+    .thankssec h4 {
+        font-size: 26px
+    }
+    .revolution-in-dna #revo-dna1 .product-caption p {
+        line-height: 27px
+    }
+    #blackbike360,
+    #blackbike360-red {
+        height: 450px !important
+    }
+    .the-revolution .rev0-headingtext img {
+        display: block;
+        margin: 0 auto;
+        max-width: 380px;
+        width: 100%
+    }
+    .full-screen {
+        bottom: 22px;
+        display: block;
+        position: absolute;
+        right: -14px;
+        width: 28px
+    }
+    .full-screen img {
+        width: 25px
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption p.rider {
+        padding-top: 30px
+    }
+    .mfp-container {
+        position: fixed !important
+    }
+    #success_msg p br {
+        display: none
+    }
+    .our-motorcycles #productinfo .item.blacktheme,
+    .our-motorcycles #productinfo .item.whitetheme {
+        background-size: auto 144px
+    }
+    .our-motorcycles #productinfo .item .blacktheme,
+    .our-motorcycles #productinfo .item .blacktheme.rv-300,
+    .our-motorcycles #productinfo .item .redtheme,
+    .our-motorcycles #productinfo .item .redtheme.rv-300,
+    .our-motorcycles #productinfo .item .whitetheme {
+        background-size: auto 120px
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext h5 {
+        font-size: 66px
+    }
+    .revolution-mathcing {
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+    .bike-features-sec {
+        width: 100%
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption {
+        margin: 0;
+        text-align: center
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .subtitle {
+        text-align: center
+    }
+    .revolution-in-dna #revo-dna1 .item img {
+        height: auto !important;
+        max-width: 100%;
+        width: 100%
+    }
+    .revolution-in-dna #revo-dna1 .product-caption,
+    .revolution-in-dna h3 {
+        padding: 0
+    }
+    .inner-page-reg .the-revolt-impact.sec-gap,
+    .your-interest.sec-gap {
+        padding: 60px 0
+    }
+    .inner-page-reg .steps-bar {
+        padding: 35px 0
+    }
+    .inner-page-reg .bikeimage-sec img {
+        vertical-align: top;
+        width: 100%
+    }
+    .inner-page-reg .step1-sec .custom-select12 span {
+        top: 2px
+    }
+    .revolution-in-dna #revo-dna1 .owl-nav {
+        height: 50px;
+        margin: 0;
+        text-align: center
+    }
+    .price-description .pricelist1 {
+        margin-bottom: 30px
+    }
+    #bikefeatures123 {
+        height: 500px;
+        padding: 12px;
+        width: 240px
+    }
+    #bikefeatures123 .mobileslider123 {
+        background: #0000;
+        height: auto
+    }
+    #bikefeatures123 .item img {
+        background: #000;
+        height: 456px
+    }
+    .font38 {
+        font-size: 30px
+    }
+    .viewer {
+        display: none
+    }
+    .form_wrp .coloumn_row.coloumn_row_addname {
+        margin-bottom: 0
+    }
+}
+
+@media only screen and (max-width:750px) {
+    .menu-terms-privacy {
+        padding: 5px 18px 40px
+    }
+    .coummunity-accessorise .comacc-box {
+        background-position: 0 40px
+    }
+    .rv-feature-nav .nav {
+        margin-top: -90px
+    }
+    .font30 {
+        font-size: 22px
+    }
+    .batteryinfo h3 {
+        font-size: 16px
+    }
+    .batteryinfo {
+        padding-bottom: 10px
+    }
+    .main-battery_info img {
+        width: 100%
+    }
+    .tabs_item .tabs_txt h4 {
+        font-size: 20px
+    }
+    .tabs_item .tabs_img,
+    .tabs_item .tabs_txt {
+        text-align: center
+    }
+    .dealerinfo-block {
+        padding: 20px
+    }
+    .custfooter-block .download-app {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .copyrighttext p {
+        text-align: center
+    }
+    .sec-gap .bikesoundgap p {
+        font-size: 18px;
+        font-weight: 400 !important;
+        padding: 0 15px
+    }
+    .font38 {
+        font-size: 20px;
+        line-height: normal
+    }
+    .playbutton img {
+        margin: 10px 0;
+        max-width: 40px
+    }
+    .rv-videosection .playvideo {
+        height: 55px;
+        width: 55px
+    }
+    .slide_text h4 {
+        font-size: 22px;
+        margin: 0;
+        padding: 10px 0
+    }
+    .slide_text p {
+        font-size: 18px
+    }
+    .rightbar_slide .slide_text h4 br {
+        display: none
+    }
+    .the-revolt-impact .ena-moto-bg {
+        margin: 0
+    }
+    .title-n-icon span {
+        font-size: 12px
+    }
+    .charging-sec {
+        height: auto
+    }
+    .plugin-charge {
+        background: #17171759;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        right: unset;
+        top: unset;
+        width: 100%
+    }
+    .follow-link .btn-4 {
+        color: #fff;
+        width: 250px
+    }
+    .follow-link .btn-4 span:first-child:after,
+    .follow-link .btn-4 span:first-child:before,
+    .follow-link .btn-4 span:last-child:after,
+    .follow-link .btn-4 span:last-child:before,
+    .follow-link .btn-4:after,
+    .follow-link .btn-4:before {
+        background: #fff
+    }
+    .nav-pills .nav-link {
+        color: #000
+    }
+    .h28 br,
+    .h34 br {
+        display: none
+    }
+    .rv-feature-nav .nav .nav-link.active {
+        color: #fff
+    }
+    .h34,
+    .plugin-charge h3,
+    .titleand-dis h3.cmnheading.h34 {
+        font-size: 20px;
+        line-height: normal;
+        padding: 0 0 30px
+    }
+    .h28 {
+        font-size: 18px;
+        line-height: normal
+    }
+    .hiddeninfo h4 {
+        font-size: 16px
+    }
+    .burder_wrapper {
+        padding: 20px 0 50px
+    }
+    .bikesoundgap p br,
+    .titleand-dis p br {
+        display: none
+    }
+    #rv-400-gallery .owl-next {
+        right: 0
+    }
+    #rv-400-gallery .owl-prev {
+        left: 0
+    }
+    .burger_menu {
+        margin: 0;
+        padding: 0 10px
+    }
+    .navcontent .closenav {
+        right: 43px;
+        top: 15px
+    }
+    .burger_social ul {
+        padding: 5px 15px
+    }
+    .burger_menu ul {
+        margin: 0;
+        padding: 10px 15px
+    }
+    .ena-moto-info {
+        width: 100%
+    }
+    .moto-details h3 {
+        margin: 0
+    }
+    .custfooter-block {
+        text-align: center
+    }
+    .social {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important
+    }
+    #video-modalbox iframe {
+        height: auto;
+        min-height: 280px
+    }
+    .moto-details {
+        min-height: auto
+    }
+    .revolt-image-gallery #gallery .gallery-item img {
+        padding: 5px 0
+    }
+    #blackbike360,
+    #blackbike360-red {
+        height: 460px !important;
+        top: 0
+    }
+    #video-modalbox .close {
+        right: -4px;
+        top: -9px;
+        width: 40px
+    }
+    .thankssec h3 {
+        font-size: 24px
+    }
+    .thankssec h4 {
+        font-size: 20px
+    }
+    footer .copyright p {
+        text-align: center
+    }
+    footer .getnews,
+    footer .saving-info {
+        float: left;
+        width: 100%
+    }
+    .our-motorcycles #productinfo .item {
+        min-height: auto
+    }
+    header {
+        height: auto
+    }
+    header .logo-and-menu .logo50 {
+        margin: 10px 0;
+        width: 90px
+    }
+    .revolution-in-dna h3 {
+        font-size: 24px;
+        line-height: 24px
+    }
+    .font55 {
+        font-size: 30px;
+        line-height: 30px
+    }
+    .font52 {
+        font-size: 26px;
+        line-height: 26px
+    }
+    .font31 {
+        font-size: 18px
+    }
+    .your-interest h3 br {
+        display: none
+    }
+    .your-interest .queryform {
+        padding: 15px 0
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption {
+        width: 100%
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption h4 br {
+        display: none
+    }
+    .the-revolution .gradlink {
+        font-size: 13px;
+        margin: 20px 0 0;
+        padding: 10px 20px
+    }
+    .your-interest h3 {
+        text-align: center
+    }
+    .the-revolt-impact .click-and-flick-outer .click-and-flick {
+        padding: 10px 0
+    }
+    .the-revolt-impact h3 br {
+        display: none
+    }
+    .banner-sec #custvideo {
+        height: auto;
+        min-height: 200px;
+        -o-object-fit: initial;
+        object-fit: fill
+    }
+    .bikeswitch li {
+        font-size: 16px;
+        margin: 0 4px
+    }
+    .aibikeinfo .font38 {
+        font-size: 18px;
+        line-height: normal
+    }
+    .bike-ai-features li {
+        font-size: 14px;
+        padding: 6px;
+        position: relative
+    }
+    .font38 {
+        font-size: 28px;
+        line-height: 30px
+    }
+    .font38 br {
+        display: none
+    }
+    .community-info h3 {
+        font-size: 24px
+    }
+    .order-and-amount .ord-range-del p {
+        margin: 5px 0;
+        padding: 0 0 5px
+    }
+    .order-and-amount .ord-range-del p span {
+        font-size: 14px
+    }
+    .order-and-amount .ord-range-del p span:after {
+        bottom: -8px
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext h5 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 55px
+    }
+    .the-revolution.reg_banner_button a {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 8px 10px;
+        width: 150px
+    }
+    .the-revolution.reg_banner_button {
+        margin: 0
+    }
+    .revolution-in-dna #revo-dna1 .owl-nav {
+        margin: 20px 0 0;
+        text-align: center
+    }
+    .mfp-container {
+        height: 100vh;
+        overflow: hidden
+    }
+    .full-screen {
+        bottom: -6px;
+        display: block;
+        position: absolute;
+        right: -15px;
+        width: 28px
+    }
+    .mutedcust1,
+    .soundcust1 {
+        bottom: -10px;
+        right: 26px
+    }
+    .inner-page-reg .order-and-amount .ord-range-del p strong {
+        font-size: 20px
+    }
+    .inner-page-reg .order-and-amount .ord-range-del p span {
+        font-size: 15px
+    }
+    .floating-circle {
+        height: 100vh;
+        margin: -100px auto 0;
+        position: relative;
+        width: 80%
+    }
+    .text {
+        font-size: 13px
+    }
+    .floating1 {
+        -webkit-animation-duration: 10s;
+        animation-duration: 10s;
+        -webkit-animation-name: movingparachute1;
+        animation-name: movingparachute1;
+        bottom: 0;
+        font-size: 11px;
+        height: 100px;
+        line-height: 100px;
+        right: 0;
+        width: 100px
+    }
+    .floating2 {
+        -webkit-animation-duration: 9s;
+        animation-duration: 9s;
+        -webkit-animation-name: movingparachute2;
+        animation-name: movingparachute2;
+        font-size: 11px;
+        height: 95px;
+        left: 0;
+        line-height: 95px;
+        top: 0;
+        width: 95px
+    }
+    .floating3 {
+        -webkit-animation-name: movingparachute3;
+        animation-name: movingparachute3;
+        font-size: 11px;
+        height: 90px;
+        line-height: 90px;
+        right: 10px;
+        top: 0;
+        width: 90px
+    }
+    .floating4 {
+        -webkit-animation-name: movingparachute4;
+        animation-name: movingparachute4;
+        height: 85px;
+        line-height: 85px;
+        top: 0;
+        width: 85px
+    }
+    .floating4,
+    .floating5 {
+        font-size: 11px;
+        left: 40%
+    }
+    .floating5 {
+        -webkit-animation-name: movingparachute5;
+        animation-name: movingparachute5;
+        height: 80px;
+        line-height: 80px;
+        top: 40%;
+        width: 80px
+    }
+    .floating6 {
+        -webkit-animation-name: movingparachute6;
+        animation-name: movingparachute6;
+        font-size: 11px;
+        height: 75px;
+        line-height: 70px;
+        right: 50%;
+        top: 60%;
+        width: 75px
+    }
+    .floating7 {
+        -webkit-animation-name: movingparachute7;
+        animation-name: movingparachute7;
+        font-size: 11px;
+        left: 20%;
+        top: 50%
+    }
+    .floating7,
+    .floating8 {
+        height: 70px;
+        line-height: 70px;
+        width: 70px
+    }
+    .floating8 {
+        -webkit-animation-name: movingparachute8;
+        animation-name: movingparachute8;
+        right: 20%;
+        top: 20%
+    }
+    .floating9 {
+        -webkit-animation-name: movingparachute9;
+        animation-name: movingparachute9;
+        bottom: 10%;
+        height: 110px;
+        line-height: 110px;
+        right: 10%;
+        width: 110px
+    }
+    @-webkit-keyframes movingparachute1 {
+        0% {
+            bottom: 18%;
+            right: 10%
+        }
+        10% {
+            bottom: 17%;
+            right: 11%
+        }
+        20% {
+            bottom: 18%;
+            right: 10%
+        }
+        30% {
+            bottom: 17%;
+            right: 11%
+        }
+        40% {
+            bottom: 18%;
+            right: 10%
+        }
+        50% {
+            bottom: 17%;
+            right: 11%
+        }
+        60% {
+            bottom: 18%;
+            right: 10%
+        }
+        70% {
+            bottom: 17%;
+            right: 11%
+        }
+        80% {
+            bottom: 18%;
+            right: 10%
+        }
+        90% {
+            bottom: 17%;
+            right: 11%
+        }
+        to {
+            bottom: 18%;
+            right: 10%
+        }
+    }
+    @keyframes movingparachute1 {
+        0% {
+            bottom: 18%;
+            right: 10%
+        }
+        10% {
+            bottom: 17%;
+            right: 11%
+        }
+        20% {
+            bottom: 18%;
+            right: 10%
+        }
+        30% {
+            bottom: 17%;
+            right: 11%
+        }
+        40% {
+            bottom: 18%;
+            right: 10%
+        }
+        50% {
+            bottom: 17%;
+            right: 11%
+        }
+        60% {
+            bottom: 18%;
+            right: 10%
+        }
+        70% {
+            bottom: 17%;
+            right: 11%
+        }
+        80% {
+            bottom: 18%;
+            right: 10%
+        }
+        90% {
+            bottom: 17%;
+            right: 11%
+        }
+        to {
+            bottom: 18%;
+            right: 10%
+        }
+    }
+    @-webkit-keyframes movingparachute3 {
+        0% {
+            right: 20%;
+            top: 10%
+        }
+        10% {
+            right: 21%;
+            top: 11%
+        }
+        20% {
+            right: 20%;
+            top: 10%
+        }
+        30% {
+            right: 19%;
+            top: 9%
+        }
+        40% {
+            right: 20%;
+            top: 10%
+        }
+        50% {
+            right: 21%;
+            top: 11%
+        }
+        60% {
+            right: 20%;
+            top: 10%
+        }
+        70% {
+            right: 19%;
+            top: 9%
+        }
+        80% {
+            right: 20%;
+            top: 10%
+        }
+        90% {
+            right: 21%;
+            top: 11%
+        }
+        to {
+            right: 20%;
+            top: 10%
+        }
+    }
+    @keyframes movingparachute3 {
+        0% {
+            right: 20%;
+            top: 10%
+        }
+        10% {
+            right: 21%;
+            top: 11%
+        }
+        20% {
+            right: 20%;
+            top: 10%
+        }
+        30% {
+            right: 19%;
+            top: 9%
+        }
+        40% {
+            right: 20%;
+            top: 10%
+        }
+        50% {
+            right: 21%;
+            top: 11%
+        }
+        60% {
+            right: 20%;
+            top: 10%
+        }
+        70% {
+            right: 19%;
+            top: 9%
+        }
+        80% {
+            right: 20%;
+            top: 10%
+        }
+        90% {
+            right: 21%;
+            top: 11%
+        }
+        to {
+            right: 20%;
+            top: 10%
+        }
+    }
+    @-webkit-keyframes movingparachute4 {
+        0% {
+            left: 0;
+            top: 10%
+        }
+        10% {
+            left: 2%;
+            top: 11%
+        }
+        20% {
+            left: 0;
+            top: 10%
+        }
+        30% {
+            left: 2%;
+            top: 11%
+        }
+        40% {
+            left: 0;
+            top: 10%
+        }
+        50% {
+            left: 2%;
+            top: 11%
+        }
+        60% {
+            left: 0;
+            top: 10%
+        }
+        70% {
+            left: 2%;
+            top: 11%
+        }
+        80% {
+            left: 0;
+            top: 10%
+        }
+        90% {
+            left: 2%;
+            top: 11%
+        }
+        to {
+            left: 0;
+            top: 10%
+        }
+    }
+    @keyframes movingparachute4 {
+        0% {
+            left: 0;
+            top: 10%
+        }
+        10% {
+            left: 2%;
+            top: 11%
+        }
+        20% {
+            left: 0;
+            top: 10%
+        }
+        30% {
+            left: 2%;
+            top: 11%
+        }
+        40% {
+            left: 0;
+            top: 10%
+        }
+        50% {
+            left: 2%;
+            top: 11%
+        }
+        60% {
+            left: 0;
+            top: 10%
+        }
+        70% {
+            left: 2%;
+            top: 11%
+        }
+        80% {
+            left: 0;
+            top: 10%
+        }
+        90% {
+            left: 2%;
+            top: 11%
+        }
+        to {
+            left: 0;
+            top: 10%
+        }
+    }
+    @-webkit-keyframes movingparachute7 {
+        0% {
+            left: 5%;
+            top: 70%
+        }
+        10% {
+            left: 6%;
+            top: 68%
+        }
+        20% {
+            left: 5%;
+            top: 70%
+        }
+        30% {
+            left: 4%;
+            top: 68%
+        }
+        40% {
+            left: 5%;
+            top: 70%
+        }
+        50% {
+            left: 6%;
+            top: 68%
+        }
+        60% {
+            left: 5%;
+            top: 70%
+        }
+        70% {
+            left: 4%;
+            top: 68%
+        }
+        80% {
+            left: 5%;
+            top: 70%
+        }
+        90% {
+            left: 6%;
+            top: 68%
+        }
+        to {
+            left: 5%;
+            top: 70%
+        }
+    }
+    @keyframes movingparachute7 {
+        0% {
+            left: 5%;
+            top: 70%
+        }
+        10% {
+            left: 6%;
+            top: 68%
+        }
+        20% {
+            left: 5%;
+            top: 70%
+        }
+        30% {
+            left: 4%;
+            top: 68%
+        }
+        40% {
+            left: 5%;
+            top: 70%
+        }
+        50% {
+            left: 6%;
+            top: 68%
+        }
+        60% {
+            left: 5%;
+            top: 70%
+        }
+        70% {
+            left: 4%;
+            top: 68%
+        }
+        80% {
+            left: 5%;
+            top: 70%
+        }
+        90% {
+            left: 6%;
+            top: 68%
+        }
+        to {
+            left: 5%;
+            top: 70%
+        }
+    }
+}
+
+@media only screen and (max-width:667px) {
+    .gal4-bt-left,
+    .gal4-bt-right,
+    .gal4-top,
+    .revolt-image-gallery #gallery .gallery-item:first-child,
+    .revolt-image-gallery #gallery .gallery-item:nth-child(2),
+    .revolt-image-gallery #gallery .gallery-item:nth-child(3),
+    .revolt-image-gallery #gallery .gallery-item:nth-child(4),
+    .revolt-image-gallery #gallery .gallery-item:nth-child(5) {
+        width: 100% !important
+    }
+    .image-360 {
+        font-size: 14px;
+        margin: -30px auto 40px;
+        max-width: 270px;
+        width: 100%
+    }
+    .image-360 p {
+        padding: 0 5px
+    }
+    .our-motorcycles #productinfo button {
+        height: 40px;
+        width: 40px
+    }
+    #productinfo .owl-dots .owl-dot span,
+    .the-revolt-impact #revoltimpact .owl-dots .owl-dot span {
+        border: 4px solid #fff;
+        height: 30px;
+        width: 30px
+    }
+    .inner-page-reg .order-and-amount {
+        display: block
+    }
+    .inner-page-reg .ord-range-del {
+        margin-bottom: 30px
+    }
+    .inner-page-reg .selectbikecolor .radio-inline {
+        font-size: 18px
+    }
+    .inner-page-reg .modelsec h3 {
+        font-size: 35px
+    }
+    .inner-page-reg .stpeicon {
+        height: 50px;
+        padding: 5px 0;
+        width: 50px
+    }
+    .inner-page-reg .stpeicon p {
+        font-size: 13px
+    }
+    .inner-page-reg .modelsec p span {
+        padding-top: 30px
+    }
+    .inner-page-reg .rev-queryform.text-center br {
+        display: none
+    }
+    .razorpay_btn {
+        padding: 140px 15px;
+        text-align: center;
+        width: 100%
+    }
+    .razorpay_btn #rzp-button1 {
+        font-size: 16px;
+        padding: 20px
+    }
+    .thankssec h3.thankyou_message_prebook {
+        font-size: 18px;
+        line-height: 26px
+    }
+    .thankssec h4 {
+        font-size: 16px
+    }
+    .coordinates_text.payment_rule_ins {
+        text-align: center
+    }
+    #other_city_message,
+    #thank_section {
+        padding-top: 50px
+    }
+    .angle ul li {
+        height: 200px;
+        margin: 10px;
+        width: 50%
+    }
+    .bike-sound-sec .slider_inner {
+        min-height: 350px
+    }
+    .our-motorcycles #productinfo .owl-next {
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline: 0 !important;
+        right: -42px
+    }
+    .our-motorcycles #productinfo .owl-prev {
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        left: -42px;
+        outline: 0 !important
+    }
+    .our-motorcycles #productinfo .owl-next img,
+    .our-motorcycles #productinfo .owl-prev img {
+        max-width: 14px
+    }
+    .the-revolution .bannerfont {
+        font-size: 24px;
+        line-height: normal
+    }
+    .rv-videosection {
+        height: auto
+    }
+    .rv-videosection video {
+        height: auto;
+        -o-object-fit: initial;
+        object-fit: fill;
+        width: 100%
+    }
+    .rv-feature-nav .nav {
+        margin-top: -44px
+    }
+    .page_title_invite {
+        padding: 40px 0 30px;
+        text-align: center
+    }
+    .page_title_invite p {
+        font-size: 16px
+    }
+    .page_title_invite h4 {
+        font-size: 20px
+    }
+    .form_wrp .coloumn_row {
+        padding-bottom: 20px
+    }
+    .form_label {
+        font-size: 12px
+    }
+    .form_wrp .form-control {
+        height: 35px
+    }
+    .form_wrp .coloumn_row label.error {
+        font-size: 12px !important
+    }
+    .dealersec .nav-tabs {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .banner_content {
+        padding: 30px 15px 0
+    }
+    .banner_content img.revolt_tag {
+        max-width: 250px
+    }
+    .timer_set_row {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        max-width: 340px;
+        padding: 0;
+        width: 100%
+    }
+    .timer_set_row .timer_item {
+        margin-top: 20px
+    }
+    .timer_set_row .timer_item:first-child {
+        margin-right: 10px
+    }
+    .timer_set_row .timer_item:nth-child(2) {
+        margin-left: 20px
+    }
+    .timer_set_row .timer_item:nth-child(3) {
+        margin-left: 0;
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:578px) {
+    #bikefeatures123 {
+        height: 460px;
+        padding: 12px;
+        width: 230px
+    }
+    #bikefeatures123 .item img {
+        height: 436px
+    }
+    .bike-ai-features li:before {
+        left: 0;
+        margin: auto;
+        right: 0
+    }
+    .bike-ai-features li {
+        display: none;
+        height: 0;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out
+    }
+    .bike-ai-features li:before {
+        background: #0000;
+        bottom: -7px;
+        content: "";
+        height: 4px;
+        left: 10px;
+        position: absolute;
+        -webkit-transition: all 2s ease-in-out;
+        transition: all 2s ease-in-out;
+        width: 0;
+        z-index: 999
+    }
+    .bike-ai-features li.active {
+        display: block;
+        height: auto;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out
+    }
+    .bike-ai-features li:after {
+        display: none
+    }
+    .formandapp {
+        padding-right: 0
+    }
+    .custfooter-block .download-app {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .rv300-bike-switch ul li,
+    .rv400-bike-switch ul li {
+        height: 47px;
+        vertical-align: top;
+        width: 50px
+    }
+    .slide_text {
+        padding: 30px 0
+    }
+    .aibikeinfo {
+        padding: 20px 0;
+        text-align: center
+    }
+    .bike-ai-features li:after {
+        bottom: 13px;
+        left: 0;
+        width: 20px
+    }
+    .bike-ai-features li.active:after,
+    .bike-ai-features li.current:after {
+        bottom: 13px;
+        left: 0;
+        width: 50px
+    }
+    .controlbuttons {
+        bottom: 20px;
+        right: 0
+    }
+    .news-subscribe {
+        width: 100%
+    }
+    .border-bothside {
+        border: 1px solid #ddd;
+        border-left: none;
+        border-right: none
+    }
+    #other_city_message .top-heading-payment br {
+        display: none
+    }
+    .the-revolution .rev0-headingtext img {
+        max-width: 260px
+    }
+    #booking_form .form-group.text-left {
+        margin: 0;
+        text-align: center !important
+    }
+    .the-revolution {
+        margin-top: 25px;
+        width: 100%
+    }
+    .ena-moto-info {
+        border: none;
+        border-bottom: 1px solid #3d3d3d
+    }
+    .banner-sec {
+        height: auto !important;
+        min-height: auto
+    }
+    .revolution-in-dna h3 {
+        font-size: 18px;
+        line-height: 24px
+    }
+    footer .getnews {
+        min-width: 100%
+    }
+    .soundsec h3 br {
+        display: none
+    }
+    .soundsec {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 0 15px;
+        position: static;
+        right: 0;
+        text-align: center
+    }
+    .bike-sound-inner {
+        background: #000;
+        height: 340px;
+        text-align: center
+    }
+    .soundsec .motovideo {
+        margin: 10px auto
+    }
+    .your-interest {
+        background: none
+    }
+    #blackbike360,
+    #blackbike360-red {
+        height: 240px !important;
+        top: 0
+    }
+    .our-motorcycles #productinfo .item .blacktheme,
+    .our-motorcycles #productinfo .item .blacktheme.rv-300,
+    .our-motorcycles #productinfo .item .redtheme,
+    .our-motorcycles #productinfo .item .redtheme.rv-300,
+    .our-motorcycles #productinfo .item .whitetheme {
+        background-position: top 22px center;
+        background-size: 82%
+    }
+    .revolution-in-dna #revo-dna1 .item img {
+        height: 360px !important;
+        max-width: 100%;
+        -o-object-fit: cover !important;
+        object-fit: cover !important;
+        width: 100%
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption h3 {
+        letter-spacing: normal;
+        margin: 0;
+        padding: 0
+    }
+    .the-revolt-impact.sec-gap,
+    .your-interest.sec-gap {
+        padding: 30px 0
+    }
+    .razorpay_btn {
+        padding: 140px 15px;
+        text-align: center;
+        width: 100%
+    }
+    .razorpay_btn #rzp-button1 {
+        font-size: 16px;
+        padding: 20px
+    }
+    .thankssec h3.thankyou_message_prebook {
+        font-size: 18px;
+        line-height: 26px
+    }
+    .thankssec h4 {
+        font-size: 16px
+    }
+    .rv300-bike-switch ul,
+    .rv400-bike-switch ul {
+        margin: 10px 0
+    }
+    .comm_info h3 {
+        font-size: 24px
+    }
+    .comm_info p {
+        color: #000;
+        font-weight: 300
+    }
+}
+
+@media only screen and (min-width:521px) {
+    .ai-enabled-shadow .shw_mbl_onl {
+        display: none
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption p.rider {
+        padding-top: 0
+    }
+    .aibikeinfo .hd_mbl_vw {
+        display: none
+    }
+    .ai-enabled-shadow .shw_mbl_onl {
+        text-align: center
+    }
+    .mobile_scroll .nav-tabs .nav-item {
+        min-width: 130px
+    }
+    .mobile_scroll .nav-tabs .nav-link {
+        font-size: 13px;
+        padding: 8px 0
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .our-motorcycles #productinfo .owl-next,
+    .our-motorcycles #productinfo .owl-prev {
+        background: #0000;
+        border-radius: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        -webkit-transform: unset;
+        transform: unset;
+        width: 25%
+    }
+    .angle ul li {
+        margin: 10px;
+        max-width: 150px;
+        width: 45%
+    }
+    .true-auto-mobile {
+        background-position: top -4px center;
+        background-size: 100% auto
+    }
+    footer .getnews .form-group .form-control {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+        width: calc(100% - 30px)
+    }
+    footer .getnews .form-group .submit {
+        float: left
+    }
+    .font55 {
+        font-size: 24px;
+        line-height: 24px
+    }
+    .font52 {
+        font-size: 22px;
+        line-height: 22px
+    }
+    .the-revolt-impact h3 sup {
+        font-size: 12px;
+        left: -2px;
+        top: -11px
+    }
+    .bikeswitch li {
+        display: none
+    }
+    .bikeswitch li:nth-child(2) {
+        display: block
+    }
+    .bikeswitch {
+        padding: 10px 0
+    }
+    .the-revolt-impact.sec-gap .font38 {
+        padding: 0 10px
+    }
+    .font38 {
+        font-size: 20px;
+        line-height: normal
+    }
+    .the-revolt-impact .click-and-flick-outer .click-and-flick .clickinfo h5 {
+        font-size: 17px;
+        line-height: normal
+    }
+    .steps-bar {
+        padding: 25px 20px
+    }
+    .razorpay_btn {
+        padding: 140px 15px;
+        text-align: center;
+        width: 100%
+    }
+    .razorpay_btn #rzp-button1 {
+        font-size: 16px;
+        padding: 20px
+    }
+    .thankssec h3.thankyou_message_prebook {
+        font-size: 18px;
+        line-height: 26px
+    }
+    .thankssec h4 {
+        font-size: 16px
+    }
+    .charging-sec,
+    .charging-sec>div.crg_inner {
+        padding: 0
+    }
+    .form_label {
+        font-size: 12px
+    }
+    .form_wrp .form-control {
+        font-size: 14px
+    }
+    .form_btn .btn {
+        font-size: 14px;
+        padding: 7px 0;
+        width: calc(50% - 5px)
+    }
+    .page_title_invite {
+        display: none
+    }
+    .small_container {
+        padding: 40px 16px
+    }
+    .page_title_invite p {
+        font-size: 14px
+    }
+    .page_title_invite h4 {
+        font-size: 18px
+    }
+    .form_wrp .coloumn_row {
+        margin-bottom: 10px
+    }
+    .form_wrp .form-control {
+        height: 32px
+    }
+    .form_btn {
+        margin-top: 10px
+    }
+    .alert_box {
+        padding: 60px 15px 30px
+    }
+    .alert_box p {
+        font-size: 15px !important;
+        line-height: 32px
+    }
+    .alert_box p br {
+        display: none
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .rv-videosection video {
+        height: auto
+    }
+    .whtBg_sect .angle ul li {
+        background: url(../images/grey-wave.png);
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: 130px;
+        height: 190px;
+        margin: 4px;
+        width: 40%
+    }
+    .font30 {
+        font-size: 20px
+    }
+    .dealersec .nav-tabs .nav-item {
+        width: 40%
+    }
+    .whtBg_sect .angle ul li.move-new {
+        background-size: 130px
+    }
+    .angle ul li span.soundname {
+        font-size: 16px;
+        left: 10px
+    }
+    .image-360 {
+        margin: 10px auto 50px
+    }
+    .comm_info {
+        padding: 0 15px;
+        top: 26px
+    }
+    .comm_info .com-knowmore {
+        font-size: 14px;
+        padding: 6px 0;
+        width: 118px
+    }
+    .rightbar_slide picture img.mbl_wdth_vw_frame {
+        height: auto;
+        min-height: auto;
+        width: 100%
+    }
+    .rightbar_slide picture img.mbl_break_point {
+        height: auto;
+        margin-top: 30px;
+        max-width: 380px;
+        min-height: auto;
+        width: 92%
+    }
+    .rightbar_slide picture img.mbl_break_point_fll {
+        height: auto;
+        min-height: auto;
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .timer_set_row .timer_item:first-child {
+        margin-right: 8px
+    }
+    .timer_set_row .timer_item:nth-child(2) {
+        margin-left: 8px
+    }
+    .whtBg_sect .angle ul li {
+        width: 45%
+    }
+    .rv_community_wrp {
+        margin-bottom: 20px
+    }
+    .navcontent .closenav {
+        right: 35px
+    }
+    .small_container {
+        padding: 40px 15px;
+        width: 100%
+    }
+    .form_wrp .form-control {
+        font-size: 12px
+    }
+    .form_btn .btn {
+        font-size: 12px;
+        padding: 6px 0
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .banner_content img.revolt_tag {
+        max-width: 200px
+    }
+    .bk_start {
+        font-size: 22px
+    }
+    .counting_item {
+        border-radius: 6px;
+        height: 44px;
+        width: 44px
+    }
+    .timer_item .counting_item:nth-child(2) {
+        margin: 0 2px
+    }
+    .counting_item p {
+        font-size: 16px
+    }
+    .counting_item span {
+        font-size: 8px
+    }
+    .bike_price_section {
+        padding: 22px 0 0
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .tabs_switch ul.tabs_btn li a {
+        font-size: 10px;
+        padding: 9px 0
+    }
+    .rv300-bike-switch ul li.explorebikenow,
+    .rv400-bike-switch ul li.explorebikenow {
+        margin: 15px
+    }
+    .rv300-bike-switch ul,
+    .rv400-bike-switch ul {
+        margin: 15px 0 0
+    }
+    .rv300-bike-switch .colorname,
+    .rv400-bike-switch .colorname {
+        text-align: center;
+        top: -148px
+    }
+    .image-360 {
+        margin: 20px auto;
+        min-width: 100%;
+        width: 100%
+    }
+    header .logo-and-menu .logo50 {
+        width: 50px
+    }
+    .burder_wrapper {
+        height: auto
+    }
+    .bikeandfeature {
+        height: 60vh;
+        padding: 40px 0 0
+    }
+    .the-revolution {
+        margin-top: -97px;
+        margin-top: 0
+    }
+    .steps-bar {
+        padding: 25px 0
+    }
+    .angle ul {
+        padding: 0
+    }
+    .angle ul li span.soundname {
+        left: 10px
+    }
+    #rv300-feature-image .rv-feature-nav .nav .nav-link.active {
+        background: #0f0f0f;
+        border-radius: 0;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 14px 30px;
+        text-transform: uppercase
+    }
+    .ftr_item .ftr_cntr span.threeNum,
+    .ftr_item .ftr_cntr span.twonum {
+        text-align: center;
+        width: 40px
+    }
+    .ftr_tbs_wrp .tbs_view_sec {
+        background: #0f0f0f;
+        padding: 0 35px
+    }
+    .ftr_item .ftr_cntr {
+        font-size: 17px
+    }
+    .nav-pills .nav-link,
+    .rv-feature-nav .nav .nav-link.active {
+        font-size: 16px;
+        padding: 14px 30px
+    }
+    .tabs_rv_ftr .line_dvd {
+        height: auto
+    }
+    .hide_img_sec {
+        margin: 20px 0
+    }
+    .hide_img_sec a.openhidden img {
+        max-width: 30px
+    }
+    .bike-innerpage-switch .rv300bike {
+        margin-bottom: 30px;
+        padding: 0
+    }
+    .bike-innerpage-switch .rv300bike li {
+        margin: 0
+    }
+    #scrollzipPoint {
+        z-index: -1
+    }
+    .rv_community_wrp picture img {
+        height: 380px;
+        height: auto
+    }
+    .comm_info p {
+        font-size: 14px
+    }
+    .comm_info p br {
+        display: none
+    }
+}

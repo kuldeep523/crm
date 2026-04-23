@@ -1,0 +1,817 @@
+.rv300-bike-switch,
+.rv400-bike-switch {
+    z-index: 12
+}
+
+.hhh button:after {
+    display: none
+}
+
+.t_condition table td {
+    padding-left: 10px !important
+}
+
+.box-page-bn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 110px;
+    padding-left: 10px
+}
+
+.box-cont h6 {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.box-cont p {
+    font-size: 14px;
+    margin-bottom: 0
+}
+
+.box-imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    width: 90px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.box-imgs img {
+    float: none !important;
+    margin: 0 !important;
+    max-height: 60px;
+    max-width: 45px;
+    padding: 0 !important
+}
+
+.box-page-bn {
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333
+}
+
+.change-mob-width .col-md-4:nth-child(3n) .box-page-bn {
+    border-right: none
+}
+
+.box-cont {
+    width: calc(100% - 90px)
+}
+
+.br-0 {
+    border-bottom: 0 !important
+}
+
+.whitetheme .threesixty_images img {
+    margin-top: 25px !important;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3)
+}
+
+.selectedCitys {
+    background-color: #ed1c24;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 17px;
+    padding: 13px 20px
+}
+
+.selectedCity {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px
+}
+
+.selectCityDropdown,
+.slectName {
+    position: relative
+}
+
+.slectName {
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 20px
+}
+
+.selectCityDropdown .dropDownList {
+    position: relative;
+    top: 0;
+    width: 100%
+}
+
+.selectCityDropdown .dropDownList ul {
+    height: 300px;
+    overflow-y: scroll
+}
+
+.selectCityDropdown .dropDownList ul li span {
+    background: #fafafa;
+    border-bottom: 1px solid #ddd;
+    color: var(--black-bg);
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px
+}
+
+.slectName {
+    overflow: hidden
+}
+
+.slectName i {
+    background: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    color: #fff;
+    font-size: 24px;
+    height: 100%;
+    justify-content: center
+}
+
+.selectCityDropdown .dropDownList ul li span.active {
+    color: #ed1c24
+}
+
+.gallery_wrapper a {
+    display: block
+}
+
+.alignfooteraddress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.locationwise {
+    float: none !important;
+    margin: 0 !important;
+    min-height: auto !important;
+    width: calc(25% - 23px) !important
+}
+
+.selectedCitys span {
+    pointer-events: none
+}
+
+.selectedCitys {
+    cursor: pointer
+}
+
+.markt a {
+    color: #000
+}
+
+.sit {
+    list-style: disc;
+    padding-left: 20px
+}
+
+.banner a {
+    display: block
+}
+
+.ls-color {
+    color: #6d6e71
+}
+
+.login-space .group .button,
+.login-space .group .input {
+    padding: 10px 30px
+}
+
+#contactus #textarea {
+    height: 70px !important
+}
+
+.contactus-parttwo img.iconleft.ch-place {
+    top: 11px !important
+}
+
+.usertableDesign {
+    display: block
+}
+
+.usertableDesign tbody {
+    display: block;
+    margin: 0 -15px
+}
+
+.usertableDesign tbody tr {
+    display: inline-block;
+    padding: 0 15px;
+    width: 50%
+}
+
+.usertableDesign tbody tr td {
+    display: block;
+    font-size: 16px;
+    line-height: normal;
+    padding: 0 0 10px
+}
+
+.usertableDesign tbody tr td:last-child {
+    margin-bottom: 10px
+}
+
+.usertableDesign .form-control,
+.usertableDesign input[type=email],
+.usertableDesign input[type=password],
+.usertableDesign input[type=text] {
+    border: 1px solid #000;
+    border-radius: 0;
+    height: 55px;
+    padding: 0 15px;
+    width: 100%
+}
+
+.usertableDesign .cancel_biooking {
+    display: inline-block
+}
+
+.default-section {
+    padding: 40px 0
+}
+
+body .p-left-space td,
+body .p-left-space th {
+    padding-left: 10px !important
+}
+
+.msgEmty {
+    font-size: 24px;
+    line-height: 37px;
+    padding-top: 45px;
+    text-align: center
+}
+
+.emptyMessage {
+    width: 100%
+}
+
+.text-end {
+    text-align: right
+}
+
+.download_csv {
+    background: #ed1c24;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 30px
+}
+
+[data-test=datatable]>.row {
+    padding-top: 20px
+}
+
+.table-f table {
+    table-layout: fixed
+}
+
+.table-f table td,
+.table-f th {
+    word-break: break-word
+}
+
+.dataTable th:after {
+    content: "\f0dc";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 5px;
+    top: calc(50% - 8px)
+}
+
+.table-2200 [data-test=table] {
+    overflow-x: scroll
+}
+
+.table-2200 table {
+    width: 2200px
+}
+
+.dataTable th {
+    padding-right: 20px !important;
+    vertical-align: middle !important
+}
+
+body .dataTable td,
+body .dataTable th {
+    padding-left: 10px !important;
+    position: relative
+}
+
+.dataTable th {
+    cursor: pointer
+}
+
+.dealer_search #submit {
+    background-color: #000;
+    color: #fff
+}
+
+.pdf_wrapper button {
+    background: #ed1c24;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 30px
+}
+
+.pdf_wrapper button i {
+    margin-left: 5px
+}
+
+@media only screen and (min-width:200px) and (max-width:768px) {
+    #custvideo1 {
+        height: 136.71875vw !important
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:2000px) {
+    #custvideo1 {
+        height: 44.27083vw !important
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:767px) {
+    .testdrive {
+        bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        background: #fff;
+        justify-content: center;
+        margin: 0;
+        padding: 10px
+    }
+    .testdrive>div {
+        width: 50%
+    }
+    .testdrive a {
+        display: block;
+        padding: 8px 10px !important
+    }
+    .revolt-booknowtext:not(.footernotify) a {
+        border: none
+    }
+    .float-right.hhh {
+        position: relative;
+        right: 0 !important;
+        top: 0;
+        width: auto
+    }
+    .revolt-booknowtext:not(.footernotify) a {
+        border: none !important;
+        margin: 0;
+        padding: 0 !important
+    }
+    .navbar-fixed .row {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .footernotify {
+        text-align: center
+    }
+    .spacingTop {
+        padding-top: 0 !important
+    }
+    .revolt-booknowtext a i {
+        font-size: 22px
+    }
+    .hhh .btn {
+        padding: 0;
+        width: auto
+    }
+    .hhh .btn:after {
+        display: none
+    }
+    .hhh .fa-caret-down {
+        margin-left: 5px
+    }
+    #header_dropdown {
+        left: auto !important;
+        right: 0 !important;
+        -webkit-transform: translate3d(0, 48px, 0) !important;
+        transform: translate3d(0, 48px, 0) !important
+    }
+    .rv400-bike-switch {
+        position: relative
+    }
+    .rv400-bike-switch ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .aibikeinfo .hd_mbl_vw {
+        display: block
+    }
+    div#revo-dna {
+        margin: 0 auto;
+        padding: 0
+    }
+    .revolution-in-dna #revo-dna img {
+        max-width: 100%;
+        width: auto
+    }
+    .revolution-in-dna #revo-dna {
+        text-align: center
+    }
+    .brand-info {
+        overflow: hidden
+    }
+    .container1 .threesixty .threesixty_images {
+        left: 0;
+        top: 0
+    }
+    #productinfo .owl-nav {
+        display: none !important
+    }
+    .kilometershare {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: auto;
+        margin-top: 10px !important;
+        padding-bottom: 0;
+        position: relative;
+        right: 0;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+    .hoursebike h5 {
+        font-size: 18px
+    }
+    .hoursebike h6 {
+        font-size: 13px
+    }
+    .text-center2 {
+        margin-top: 0
+    }
+    .explore_now a {
+        display: inline-block;
+        margin-top: 20px;
+        top: 0
+    }
+    .revolution-in-dna #revo-dna1 .item img {
+        max-height: 30px;
+        width: auto
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext {
+        text-align: left
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext p {
+        font-size: 14px;
+        text-align: left
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext p.gr-below-text {
+        font-size: 16px !important
+    }
+    .revolution-in-dna #revo-dna1 .owl-nav {
+        right: 0;
+        text-align: center
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .heading-and-caption .gradtext h5 {
+        font-size: 34px;
+        line-height: normal
+    }
+    .revolution-in-dna #revo-dna1 .product-caption .subtitle {
+        text-align: left
+    }
+    .choicesound .hd_mbl_vw {
+        font-size: 25px;
+        line-height: normal;
+        padding-right: 40%
+    }
+    .choicesound p {
+        font-size: 16px;
+        line-height: 24px
+    }
+    .choicesound {
+        height: auto
+    }
+    .angle ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 15px
+    }
+    .angle ul li {
+        height: 130px;
+        margin: 0;
+        max-width: none;
+        width: calc(50% - 8px)
+    }
+    .test-a-ride .row .col-lg-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%
+    }
+    .title-n-icon {
+        text-align: left;
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        border: 1px solid #ddd !important;
+        justify-content: start !important;
+        padding-left: 20px
+    }
+    .border-bothside,
+    .test-a-ride {
+        border: none
+    }
+    .footer_box.stay-connected {
+        margin-left: 0
+    }
+    .footer-downloads span {
+        display: block;
+        margin-bottom: 10px
+    }
+    .footer-downloads a {
+        display: inline-block
+    }
+    .social {
+        margin-bottom: 30px
+    }
+    footer.footersec {
+        padding-bottom: 80px
+    }
+    .experiencenear .col-md-3 {
+        padding-left: 15px !important;
+        padding-right: 15px !important
+    }
+    .font38 {
+        font-size: 30px;
+        line-height: 36px
+    }
+    .alignfooteraddress {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 0 15px
+    }
+    .locationwise {
+        margin: 0;
+        min-height: auto;
+        width: calc(50% - 8px) !important
+    }
+    .banner .carousel-indicators {
+        bottom: 10px
+    }
+    .bike-ai-features li {
+        display: block !important;
+        height: auto;
+        line-height: normal !important;
+        padding: 0
+    }
+    .bike-ai-features li:before {
+        display: none
+    }
+    section.choicesound {
+        padding-bottom: 30px
+    }
+    section.gallery {
+        padding: 50px 0
+    }
+    .gallery .hd_mbl_vw {
+        margin-bottom: 40px !important;
+        text-align: center
+    }
+    .gallery_wrapper .pr-0 {
+        padding-right: 15px !important
+    }
+    #demo1 {
+        margin-bottom: 20px
+    }
+    #demo1,
+    #demo3 {
+        background-color: initial;
+        height: auto !important;
+        padding-bottom: 30px;
+        position: relative
+    }
+    .gallery_wrapper .carousel-control-next,
+    .gallery_wrapper .carousel-control-prev {
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        right: 0
+    }
+    .gallery_wrapper .carousel,
+    .gallery_wrapper .carousel-item,
+    .gallery_wrapper .carousel-item.active {
+        height: auto !important
+    }
+    .gallery_wrapper {
+        width: 100% !important
+    }
+    .gallery_wrapper .carousel-control-prev {
+        left: -50px
+    }
+    .gallery_wrapper .carousel-control-next {
+        right: -50px
+    }
+    .login-snip,
+    .login-space .login {
+        position: relative
+    }
+    .login-snip {
+        padding: 0 !important
+    }
+    .signinnsignup .card {
+        padding: 60px 0 35px;
+        width: auto
+    }
+    .login-snip .login,
+    .login-snip .sign-up-form {
+        position: relative
+    }
+    .dropdn .col-md-6 {
+        margin-bottom: 10px
+    }
+    .dropdn {
+        margin-bottom: 0
+    }
+    .unlockcity_inner .form-card {
+        margin: 0;
+        padding: 40px 0
+    }
+    #progressbar {
+        padding-left: 0;
+        padding-right: 0
+    }
+    #progressbar li {
+        padding: 0 5px
+    }
+    .signinnsignup .form-card {
+        padding: 0
+    }
+    .content_page ul {
+        padding-left: 0
+    }
+    #editprofile_table th,
+    .table thead th,
+    td {
+        padding-left: 10px !important
+    }
+    .t_condition .content_page {
+        margin: 0;
+        padding: 30px 0 20px
+    }
+    .get-your-motor-text h1 {
+        font-size: 30px
+    }
+    .motor-box-1 {
+        margin: 30px 0 0
+    }
+    .get-your-motor {
+        padding: 20px 0 60px
+    }
+    .breadCrmb .breadcrumb,
+    body .breadCrmb {
+        padding-left: 0 !important
+    }
+    .our-identity {
+        padding: 50px 0
+    }
+    .our-identity-text {
+        width: 100%
+    }
+    .our-identity-text h1 {
+        font-size: 30px
+    }
+    .our-identity p:last-child {
+        margin-bottom: 0
+    }
+    .get-your-motor-text {
+        padding-bottom: 10px
+    }
+    .mainproduct_heading {
+        font-size: 55px
+    }
+    #mainbroduct_banner {
+        background-size: cover;
+        height: auto;
+        min-height: auto
+    }
+    .mainproduct_banner_box {
+        margin: 70px 0
+    }
+    #mainproduct_evening_banner {
+        height: auto;
+        max-height: none;
+        min-height: auto
+    }
+    .mainproduct_Collapse_box {
+        margin: 20px auto;
+        width: 100%
+    }
+    .change-mob-width .col-md-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        width: 50%
+    }
+    .collapse_box_content {
+        border: 1px solid #333 !important
+    }
+    .box-page-bn {
+        border: none !important;
+        border-bottom: 1px solid #333 !important;
+        height: 100%;
+        padding: 25px 10px
+    }
+    .change-mob-width .col-md-4:nth-child(2n-1) .box-page-bn {
+        border-right: 1px solid #333 !important
+    }
+    .box-cont h6 {
+        font-size: 15px
+    }
+    .box-imgs {
+        width: 75px
+    }
+    .box-cont {
+        width: calc(100% - 75px)
+    }
+    .box-cont p {
+        word-break: break-all
+    }
+    .change-mob-width {
+        overflow: hidden
+    }
+    .change-mob-width .row {
+        margin-bottom: -1px
+    }
+    .column {
+        background: #fafafa;
+        margin-bottom: 25px;
+        width: 100%
+    }
+    #mainproduct_Collapse .column p.playbutton {
+        bottom: 0;
+        margin-bottom: 0;
+        position: relative
+    }
+    #mainproduct_Collapse .demo {
+        height: auto
+    }
+    #mainproduct_Collapse {
+        padding-bottom: 0
+    }
+    .charginbox {
+        margin: 15px 0
+    }
+    #mainproduct_charging_banner {
+        min-height: auto
+    }
+}

@@ -1,0 +1,302 @@
+@media only screen and (max-width:1080px) {
+    .ftr_item h6 {
+        font-size: 14px
+    }
+    .ftr_item .ftr_cntr {
+        font-size: 40px
+    }
+    .ftr_item .ftr_cntr span.twonum {
+        width: 60px
+    }
+    .ftr_item .ftr_cntr span.threeNum {
+        width: 76px
+    }
+    .tabs_rv_ftr .line_dvd {
+        height: 64px
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .the_seat {
+        right: 5% !important;
+        width: 50% !important
+    }
+    .slide_text {
+        width: 60%
+    }
+    .owl_cstm_style .swiper-wrapper .swiper-slide.swiper-slide-active .slide_text.sld_adjuster_sec {
+        bottom: 25%
+    }
+    .owl_cstm_style .swiper-wrapper .swiper-slide.swiper-slide-active .slide_text.push_electric {
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        width: 70%
+    }
+    .txt_vdo_itm .sld_txt.Balanced-right {
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: -60%
+    }
+    .txt_vdo_itm .sld_txt.powerhouse {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: -80%
+    }
+    .tabimg800 picture img {
+        height: 50vh !important;
+        width: 100%
+    }
+    .ftr_tbs_wrp .tbs_view_sec {
+        padding: 0 110px
+    }
+    .scene,
+    .scrollmagic-pin-spacer {
+        background-color: #fff !important;
+        left: -100% !important;
+        position: absolute !important;
+        visibility: hidden !important;
+        z-index: 0 !important
+    }
+    .scrollmagic-pin-spacer,
+    .viewer {
+        display: none !important
+    }
+    .plugin-charge {
+        top: 10px
+    }
+    .higestground picture img {
+        height: 60vh;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+        width: 100%
+    }
+    .higestground .slide_text {
+        bottom: 20% !important;
+        width: 60%
+    }
+    .adjusterbox-wrap .adjusterbox {
+        text-align: center;
+        width: 100%
+    }
+    .theadjuster .adjusterbox-wrap .adjusterbox-wrap {
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important
+    }
+    .theadjuster .adjusterbox-wrap .adjusterbox {
+        text-align: center;
+        width: 90% !important
+    }
+    .adjusterbox-wrap .adjusterbox h4,
+    .adjusterbox-wrap .adjusterbox p {
+        padding: 0;
+        text-align: center
+    }
+    .theadjuster .adjusterbox-wrap .adjusterbox:nth-child(2) {
+        margin: 0 auto !important;
+        width: 70% !important
+    }
+    .owl_cstm_style .swiper-wrapper .swiper-slide.swiper-slide-active .slide_text.power_gen_rv300 {
+        left: auto;
+        right: 9%;
+        text-align: left;
+        top: 27%;
+        width: 48%
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .the_seat {
+        right: 0 !important;
+        width: 100% !important
+    }
+    .theadjuster .adjusterbox-wrap .adjusterbox {
+        text-align: center;
+        width: 100% !important
+    }
+    .theadjuster .adjusterbox-wrap .adjusterbox:nth-child(2) {
+        margin: 40px auto !important;
+        width: 70% !important
+    }
+    .slide_text {
+        margin: 10px auto;
+        width: 90%
+    }
+    .txt_vdo_itm .sld_txt.Balanced-right,
+    .txt_vdo_itm .sld_txt.powerhouse {
+        position: static !important
+    }
+    .mobile-orderchnage.slide_text h4 {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        display: block !important;
+        order: 2;
+        width: 100% !important
+    }
+    .main-wrapper .scrollmagic-pin-spacer {
+        display: none !important;
+        height: 0 !important;
+        opacity: 0 !important;
+        visibility: hidden !important
+    }
+    .rv-imagesection img {
+        height: 400px;
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+    .rv_ftrs_cntr {
+        padding: 0
+    }
+    .rv-feature-nav .nav-pills .nav-link,
+    .rv-feature-nav.rv300bike .nav-pills .nav-link {
+        padding: 10px 30px
+    }
+    .hide_img_sec {
+        margin: 30px 0
+    }
+}
+
+@media only screen and (max-width:676px) {
+    .tabs_rv_ftr {
+        padding: 22px 0 18px
+    }
+    .ftr_item h6 {
+        font-size: 12px
+    }
+    .ftr_item .ftr_cntr {
+        font-size: 24px
+    }
+    .ftr_item .ftr_cntr span.twonum {
+        width: 40px
+    }
+    .ftr_item .ftr_cntr span.threeNum {
+        width: 50px
+    }
+    .tabs_rv_ftr .line_dvd {
+        height: 38px
+    }
+    .hide_mbl_676 {
+        display: none
+    }
+    .slide_crs_mbl .carousel-inner {
+        height: 370px;
+        width: 190px
+    }
+}
+
+@media only screen and (min-width:677px) {
+    .slide_crs_mbl {
+        display: none
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .rv-feature-nav .nav-pills .nav-link,
+    .rv-feature-nav.rv300bike .nav-pills .nav-link {
+        font-size: 14px !important;
+        padding: 10px 20px !important
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .ftr_tbs_wrp .tbs_view_sec {
+        padding: 0 80px
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .rv-imagesection img {
+        height: auto;
+        -o-object-fit: initial;
+        object-fit: fill;
+        width: 100%
+    }
+    .rvbg_comfort_img {
+        background-attachment: unset;
+        background-position: 48% 100%;
+        background-size: auto 100%
+    }
+    .rvbg2 {
+        background: url(../images/400-Design-mobile.jpg) no-repeat;
+        background-size: cover
+    }
+    .rvbg3 {
+        background: url(../images/400-Safety-mobile.jpg) no-repeat;
+        background-size: cover
+    }
+    .ftr_tbs_wrp .tbs_view_sec {
+        padding: 0 50px
+    }
+    .playbutton i {
+        font-size: 20px;
+        padding: 9px 15px
+    }
+    .battery-specs {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 90%
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .price-description {
+        padding-bottom: 0
+    }
+    .price-description div div:last-child .pricelist1 {
+        margin-bottom: 0
+    }
+    .angle ul {
+        padding-bottom: 0
+    }
+    .bike-sound-sec {
+        padding: 0 15px
+    }
+    .charging-points {
+        padding-top: 0
+    }
+    .slide_crs_mbl .carousel-inner {
+        height: 340px;
+        width: 170px
+    }
+    .slide_crs_mbl .carousel-control-next i,
+    .slide_crs_mbl .carousel-control-prev i {
+        font-size: 11px;
+        padding: 13px 12px 10px
+    }
+}
+
+.text-center {
+    margin: 0;
+    text-align: center !important
+}
+
+.dealerinfo-block {
+    padding: 20px 10px 20px 30px
+}
+
+@media only screen and (max-width:380px) {
+    .ftr_tbs_wrp .tbs_view_sec {
+        padding: 0 24px
+    }
+    .ftr_item .ftr_cntr {
+        font-size: 22px
+    }
+    .rv-feature-nav .nav-pills .nav-link,
+    .rv-feature-nav.rv300bike .nav-pills .nav-link {
+        font-size: 12px !important
+    }
+}

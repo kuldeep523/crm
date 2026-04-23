@@ -1,0 +1,4378 @@
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+   .dlBorder
+   {
+       border: none;
+       border-bottom: 1px solid #c1c0c0;
+   }
+   .i-class
+   {
+       color: rgba(13, 66, 130, 1);
+   }
+.reveal {
+            position: relative;
+            transform: translateX(150px);
+            opacity: 0;
+            transition: 1s all ease;
+        }
+
+        .reveal.active {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        .prBtn
+        {
+                margin-top: 30px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                /* background-color: gray; */
+                background: linear-gradient(323deg, rgba(13,66,130,1) 0%, rgba(2,36,77,1) 61%, rgba(2,36,77,1) 100%);
+                padding: 5px;
+                border-radius: 5px;
+                border: 1px solid black;
+                color: white;
+                /* opacity: 0.9; */
+        }
+        .menuWidth
+        {
+            top: 28px !important;
+            min-width: 357px !important;
+        }
+.h2SetWhite {          
+    font-size: large;
+}
+.outcricle{
+        max-height: 78px !important;
+}
+/*explore_btn*/
+.explore_btn{
+    padding: 15px 25px;
+    font-size:25px;
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.h2Setblack {
+    color: 252525;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bg_service_1 {
+    background: linear-gradient(95deg, rgb(41 193 178 / 25%) 0%, rgb(107 207 197 / 19%) 100%);
+}
+
+.bg_service_2 {
+    background: linear-gradient(95deg, rgb(226 110 140 / 27%) 0%, rgb(245 183 199 / 22%) 100%);
+}
+
+.bg_service_3 {
+    background: linear-gradient(95deg, rgb(177 99 201 / 26%) 0%, rgb(211 162 227 / 27%) 100%);
+}
+
+.bg_service_4 {
+    background: linear-gradient(95deg, #dd7a013b 0%, #e8ac6230 100%);
+}
+
+.serviceTitle {
+    /* padding-bottom: 20px; */
+    color: #202020;
+    font-weight: 500px;
+}
+
+.service-btn {
+    padding: 5px 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-weight: 400;
+    box-shadow: 10px 10px 20px #d4d4d4;
+
+}
+
+.theme-btn-Set {
+    padding: 5px 15px;
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 400;
+    box-shadow: 10px 10px 20px #d4d4d4;
+}
+
+.theme-btn-Set-white {
+    padding: 5px 15px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 400;
+    box-shadow: 10px 10px 20px #d4d4d4;
+    margin-left: 27px;
+}
+
+
+
+.pNavbarRightSetMobile {
+
+    font-size: 8px !important;
+
+    line-height: 9px !important;
+}
+
+
+.themeBtnSet {
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+}
+
+
+
+.themeSliderHeadingSetMobile {
+    font-weight: 700;
+    text-align: center;
+    line-height: 45px !important;
+}
+
+.ptextSetHeroSec {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px !important;
+}
+ 
+
+
+.sliderTransbutton01 {
+    background: linear-gradient(95deg, rgba(41, 193, 178, 0.2) 0%, rgba(107, 207, 197, 0.2) 100%) !important; 
+   
+}
+
+.sliderTransbutton02 {
+    background: linear-gradient(95deg, rgba(226, 110, 140, 0.4) 0%, rgba(245, 183, 199, 0.4) 100%) !important;
+   
+}
+
+.sliderTransbutton04 {
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%) !important;
+
+}
+
+.sliderTransbutton05 {
+    background: linear-gradient(95deg, #ffd49f 0%, #ffefdb 100%) !important;
+
+}
+@media (max-width:400px)
+{
+    .infs {
+            font-size: 9px !important;
+            }
+            .fs-case
+            {
+                margin-top:60px;
+            }
+}
+@media(min-width:401px) and (max-width:576px)
+{
+    .infs
+    {
+        font-size:10px !important;
+    }
+}
+@media (max-width:1199px)
+{ 
+    .flage
+    {
+        display:none;
+    }
+    .caselapnone
+    {
+        display:none;
+    }
+}
+@media (min-width:1199px)
+{
+    .caseMobilenone
+    {
+        display:none;
+    }
+    .flage
+    {
+        display:block;
+    }
+}
+@media (max-width: 576px) {
+    .feturesNone {
+        display: none;
+    }
+    .paddlr0inMobile
+    {
+        padding:0px;
+    }
+    .service_box.style_four .service_content .image_box 
+    {
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px;
+        top: -24px !important;
+    }
+    .service_box.style_four .service_content .image_box .imgDesk
+    {
+        height: 78px !important;
+    }
+    .mn-24
+    {
+        margin-top:-25px !important;
+    } 
+    
+    .service_box.style_four .service_content
+    {
+        padding: 0px 9px 3px 9px !important;
+    }
+    .martop
+    {
+        margin-top:0rem!important;
+    }
+}
+@media (min-width: 576px) and (max-width:770px)
+{
+    .service_box.style_four .service_content .image_box 
+    {
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px;
+        top: -24px !important;
+    }
+    .service_box.style_four .service_content .image_box .imgDesk
+    {
+        height: 110px !important;
+    }
+    .mn-24
+    {
+        margin-top:-25px !important;
+    } 
+    .infs
+    {
+        font-size:12px !important;
+        font-weight:500 !important;
+    }
+    .service_box.style_four .service_content
+    {
+        padding: 0px 9px 3px 9px !important;
+    }
+    .martop
+    {
+        margin-top:0rem!important;
+    }
+}
+
+@media (min-width: 576px) {
+    .aboutusValueImg
+    {
+        max-width:228px;    
+    }
+    .conImgHeight
+    {
+        height: 535px
+    }
+    .feturesLapNone {
+        display: none;
+    }
+
+}
+@media (min-width: 500px) 
+{
+    .aboutPadding
+    {
+        padding: 31px 5px 0px 30px;
+        text-align:left;
+    }
+    .displFlex
+    {
+        display:flex;
+    }
+    
+    .txtDiv {
+        position: absolute;
+        width: 80%;
+        top: 10%;
+        right: 10%;
+    }
+
+    .abouthero {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-image: url('../../../images/case/bg1.png');
+    }
+
+    .logopadleft {
+        padding-left: 35px;
+    }
+
+    .aboutHeading {
+        font-weight: 500;
+        font-size: 51px;
+        line-height: 72px;
+        color: white;
+    }
+
+    .atag {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .lifs12 {
+        font-size: 16px !important;
+        text-indent:-14px;
+    }
+
+   
+
+    .float-endnew {
+        float: right !important;
+    }
+
+    .ml0 {
+        padding-left: 0px;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+    .servicePadd {
+        padding: 15px 10px 10px 15px;
+    }
+
+    .mar3 {
+        margin-right: 20px;
+    }
+
+    .socialmediafb {
+        color: rgb(75, 105, 177);
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .socialmediainst {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        font-size: 35px;
+        color: white;
+        padding: 7px 14px !important;
+    }
+
+    .socialmedialinkedin {
+        color: #0678B6;
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .socialmediatwitter {
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .socialmediayoutube {
+        color: #E83F3A;
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .mrService {
+        margin-right: 20px;
+    }
+
+    .mlService {
+        margin-right: 20px;
+    }
+
+    .pIcon {
+        padding: 8px 20px;
+    }
+
+    .pl0 {
+        padding-left: 0px;
+    }
+
+    .custMar {
+        margin-top: 1rem !important;
+    }
+
+    .containerCustService {
+        max-width: 1170px;
+        padding: 0px 15px;
+    }
+
+    .marTopServiceDesk {
+        margin-top: 1rem !important;
+    }
+
+    .serviceHovernew {
+        transition: all .5s ease-in-out;
+    }
+
+    .serviceHovernew:hover {
+        transform: scale(1.1);
+        /* transform: skew(5deg, 5deg); */
+        /* transform:rotate(5deg); */
+    }
+
+    .disLapNone {
+        display: none;
+    }
+
+    .header.style_three .navbar_outer,
+    .default_sickty_heaad.style_three .navbar_outer {
+        position: relative;
+        padding: 7px 0px;
+        background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+        /* background: var(--primary-color-one); */
+    }
+
+}
+@media (max-width: 500px) 
+{
+    .brnn
+        {
+            display:none;
+        }
+    .txtcen
+    {
+        text-align:center !important;
+    }
+    .fsMobileDealer
+    {
+        font-size: 1.2rem !important;
+        font-weight: 600 !important;
+    }
+    .p20mobile
+    {
+        padding-top:20px;
+    }
+    .aboutPadding
+    {
+        padding: 0px;
+        text-align:left;
+    }
+    .displFlex
+    {
+        display:block;
+    }
+    
+    .service_box.style_four .service_content .image_box_full
+    {
+            position: relative !important;
+            overflow: hidden !important;
+            border-radius: 10px !important;
+            width: 100% !important;
+            top: -31px !important;
+    }
+    .aboutHeroTBp
+        {
+            padding:20px 0px 5px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 300;
+                text-align: justify !important;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height: 260px;
+        }
+    .pleftrigt5
+    {
+        padding:0px 5px;
+    }
+    .service_box.style_four .service_contentMobile
+    {
+        padding:10px 10px 5px 10px !important;
+    }
+    .gptwlogo
+    {
+            position: relative;
+            top: -51px;
+            width: 53px;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:40px !important;
+    }
+    .fs-mobile
+    {
+        font-size:1.1rem;
+    }
+    .service-btn-squre {
+    padding: 6px 28px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .iconHeight
+{
+    height:6vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 55px !important;
+        font-size: 2.2rem;
+    }
+    .fsLarge
+    {
+        font-size: 2rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 7px 15px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 15px;
+    }
+    .tabIconRightSet {
+        right: 23px !important;
+        top: 133px !important;
+    }
+
+    .acase {
+        color: #5a5a5a;
+        padding-left: 77px !important;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .txtDiv {
+        position: absolute;
+        width: 80%;
+        top: 12%;
+        right: 10%;
+    }
+
+    .abouthero {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        background-size: cover;
+        background-image: url('../../../images/case/bg1.png');
+    }
+
+    .brnone {
+        display: none;
+    }
+
+    .aboutHeading {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        color: white;
+    }
+
+    .serimgHeight {
+        background-size: cover;
+        min-height: 178px;
+        max-height: 665px;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+    .servicePadd {
+        padding: 15px 10px 10px 15px;
+        min-height: 140px;
+    }
+
+    .mar3 {
+        margin-right: 13px;
+    }
+
+    .socialmediafb {
+        color: rgb(75, 105, 177);
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .socialmediainst {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        font-size: 35px;
+        color: white;
+        padding: 4px 9px !important;
+    }
+
+    .socialmedialinkedin {
+        color: #0678B6;
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .socialmediatwitter {
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .socialmediayoutube {
+        color: #E83F3A;
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .get br {
+        display: none;
+    }
+
+    .get {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .pIcon {
+        padding: 3px 13px;
+    }
+
+    .pt5 {
+        padding-top: 8px;
+    }
+
+    .pb5 {
+        padding-bottom: 10px;
+    }
+
+    .marTopServiceDesk {
+        margin-top: .25rem !important;
+    }
+
+    .serSecRadius {
+        border-radius: 5px !important;
+    }
+
+    .pr {
+        padding: 0px 5px 0px 0px;
+    }
+
+    .pl {
+        padding: 0px 0px 0px 5px;
+    }
+
+    .disNone {
+        display: none !important;
+    }
+
+    .header.style_three .navbar_outer,
+    .default_sickty_heaad.style_three .navbar_outer {
+        position: relative;
+        padding: 7px 0px;
+        background-color: white;
+    }
+
+    .serviceSecMobileView {
+        display: flex;
+        height: 65px !important;
+        padding: 8px 18px 10px 18px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .fontsetMobileViewSer {
+        text-align: left;
+        line-height: 16px !important;
+        padding-left: 10px;
+        font-size: 10px !important;
+    }
+
+    .imgsetMobileViewSer {
+        padding-top: 5px;
+        width: 39px !important;
+    }
+
+    .custMar {
+        /* margin-top: 1rem !important; */
+    }
+
+    .float-endnew {
+        margin-top: 30px;
+        
+        float: left !important;
+    }
+
+    .lifs12 {
+        font-size: 12px !important;
+        text-indent:-10px;
+    }
+
+    .atag {
+        font-size: 8px;
+    }
+
+    .pl20 {
+        padding-right: 10px !important;
+    }
+
+    .logopadleft {
+        padding-left: 86px;
+    }
+    .ass-text-size1{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1rem !important;
+}
+}
+
+@media(min-width: 500px) and (max-width: 768px)
+{
+    .feturesLapNone
+    {
+        display:block !important;
+    }
+    .disn
+    {
+        display:none !important;
+    }
+    .brnn
+        {
+            display:none;
+        }
+    .txtcen
+    {
+        text-align:center !important;
+    }
+    .sliderheroPaddingtop {
+        padding-left: 0px;
+        margin-top: 1.8rem;
+        padding-right: 0px;
+    }
+    .fullscreen {
+            object-fit: cover;
+            width: 100%;
+            min-height: 875px;
+    }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    .themeSliderHeadingSet {
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2rem; 
+            font-family:'Outfit'; 
+            line-height:3.2rem; 
+            margin-top: -1.2rem;
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -54px;
+        width: 57px;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:45px !important;
+    }
+    .ass-text-size{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .ass-text-size1{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .service-btn-squre {
+    padding: 7px 35px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.1rem !important;
+    }
+    .iconHeight
+    {
+        height:6vh;
+    }
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 60px !important;
+        font-size: 2.5rem;
+    }
+    .acase {
+        color: #5a5a5a;
+        padding-left: 55px;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .fsLarge
+    {
+        font-size: 2.3rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 10px 17px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 20px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) 
+{
+    .feturesLapNone
+    {
+        display:block !important;
+    }
+    
+    .disn
+    {
+        display:none !important;
+    }
+    .back{
+        height: 823px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+       
+    }
+    .brnn
+        {
+            display:none;
+        }
+    .set:nth-child(1){
+            bottom: -20px;  
+            right:20px
+        }
+        .set:nth-child(2){
+            bottom: -262px;
+            right:20px  
+        }
+        .set:nth-child(3){
+            bottom: -520px;
+            right:20px
+        }
+        .set:nth-child(4){
+            bottom: -804px;
+            right:20px  
+        }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 400;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+  
+    .logoSize
+    {
+        width:200px !important;
+    }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 1.8rem;
+            padding-right: 0px;
+        }
+    .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 576px !important;
+    }
+    .fullscreenAbout {
+      object-fit: cover;
+      width:100%;
+      min-height: 302px;
+      max-height: 387px;
+    }
+   .themeSliderHeadingSet {
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2.3rem; 
+            font-family:'Outfit'; 
+            line-height:3.5rem; 
+            margin-top: -1.2rem;
+          
+            
+        }
+    .gptwlogo
+    {
+           position: relative;
+           top: -55px !important;
+           width: 53px !important;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:45px !important;
+    }
+    .ass-text-size{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .ass-text-size1{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 7px 40px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.2rem !important;
+}
+    .iconHeight
+{
+    height:7vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 64px !important;
+        font-size: 2.8rem;
+    }
+    .fsLarge
+    {
+        font-size: 2.5rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 20px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 30px;
+    }
+
+    .imglap {
+        width: 700px !important;
+    }
+
+    .acase {
+        color: #5a5a5a;
+        padding-left: 55px !important;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .tabIconRightSet {
+        right: 24px !important;
+        top: 129px !important;
+    }
+}
+@media(min-width: 992px) and (max-width: 1200px) 
+{
+      #Features_scroll1 {
+    font-size: 100px;
+}
+    .marRight
+        {
+            margin-right:10px !important;
+        }
+    .brnn
+        {
+            display:none;
+        }
+    .pNavbarRightSet {padding-top: 5px !important;font-size: 10px !important;line-height: 18px !important;}
+    .set:nth-child(1){
+            bottom: 120px;  
+        }
+        .set:nth-child(2){
+            bottom: 120px;
+            right:20px  
+        }
+        .set:nth-child(3){
+            top: 120px;
+        }
+        .set:nth-child(4){
+            top: 120px;
+            right:20px  
+        }
+    .aboutHeading {
+        font-weight: 400; 
+        font-size: 35px;
+        line-height: 40px;
+        color: white;
+    }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 400;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+    .navLinkPageActive
+    {
+        text-align: center;
+        border-radius: 50px;
+        width: 100px;
+        margin: auto;
+        background-image: linear-gradient(to right, #34cbb7, #0d89c8);
+        width: 38px;
+        height: 3px;
+        MARGIN-BOTTOM: 10PX;
+    }
+    .logoSize
+    {
+        width:200px !important;
+    }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 1.8rem;
+            padding-right: 0px;
+        }
+    .inCountpFs
+        {
+            font-size:20px !important;
+            
+        }
+        .inCountSpanFs
+        {
+            font-size:40px !important;
+            
+        }
+    .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 502px;
+               max-height: 587px;
+    }
+    .fullscreenAbout {
+      object-fit: cover;
+      width:100%;
+      min-height: 302px;
+      max-height: 387px;
+    }
+    .themeSliderHeadingSet {
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2.5rem; 
+            font-family:'Outfit'; 
+            line-height:3.8rem; 
+            margin-top: -1.2rem;
+          
+            
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -66px !important;
+        width: 75px !important;
+    }
+    .plcontact0
+    {
+      padding-left:0px;  
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:45px !important;
+    }
+    .ass-text-size{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1rem !important;
+        color:black !important;
+    }
+    .ass-text-size1{
+        flex: 1.1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1rem !important;
+        color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 8px 40px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.3rem !important;
+}
+    .iconHeight
+{
+    height:7vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 65px !important;
+        font-size: 3rem;
+    }
+    .fsLarge
+    {
+        font-size: 2.5rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 22px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 40px;
+    }
+
+    .imglap {
+        width: 800px !important;
+    }
+
+    .acase {
+        color: #5a5a5a;
+        padding-left: 57px !important;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    
+}
+@media(min-width: 1200px) and (max-width:1400px) 
+{
+    #Features_scroll1 {
+    font-size: 110px;
+}
+    .tabIconRightSet
+    {
+        right: 38px !important;
+        top: 194px !important;
+    }
+    .hnavbar a:after
+    {
+        bottom: 2px !important;
+    }
+    .fixed-header .get_sticky_header
+    {
+        top: 60px !important;
+    }
+    .marRight
+        {
+            margin-right:10px !important;
+        }
+    .brnn
+    {
+        display:block;
+    }
+    .pNavbarRightSet {padding-top: 5px !important;font-size: 10px !important;line-height: 18px !important;}
+ .set:nth-child(1){
+            bottom: 120px;  
+        }
+        .set:nth-child(2){
+            bottom: 120px;
+            right:20px  
+        }
+        .set:nth-child(3){
+            top: 120px;
+        }
+        .set:nth-child(4){
+            top: 120px;
+            right:20px  
+        }   
+    .afsSet1200
+    {
+        font-size:14px !important;
+    }
+    .pt1200sc{
+        padding-top:30px;
+        }
+    .aboutHeading {
+        font-weight: 500 !important; 
+        font-size: 41px !important;
+        line-height: 56px !important;
+        color: white;
+    }
+    .header.style_three .header_mid .mid_logo_icon img, .default_sickty_heaad.style_three .header_mid .mid_logo_icon img
+    {
+        width:220px;
+    }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+    .navLinkPageActive
+    {
+        text-align: center;
+        border-radius: 50px;
+        width: 100px;
+        margin: auto;
+        background-image: linear-gradient(to right, #34cbb7, #0d89c8);
+        width: 38px;
+        height: 3px;
+        MARGIN-BOTTOM: 10PX;
+    }
+    .logoSize
+    {
+        width:200px !important;
+    }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 26px;
+            font-weight: 400;
+        }
+    .serimgHeight {
+                background-size: cover;
+                min-height: 710px;
+                max-height: 800px;
+            }
+    .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 2rem;
+            padding-right: 0px;
+        }
+    .inCountpFs
+        {
+            font-size:16px !important;
+            
+        }
+        .inCountSpanFs
+        {
+            font-size:40px !important;
+            
+        }
+    .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 531px;
+               max-height: 700px;
+    }
+    .fullscreenAbout {
+      object-fit: cover;
+      width:100%;
+      min-height: 302px;
+      max-height: 387px;
+    }
+    .themeSliderHeadingSet {
+          
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2.7rem; 
+            font-family:'Outfit'; 
+            line-height:4.1rem; 
+            margin-top: -1.2rem;
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -76px;
+        width: 62px;
+    }
+    .plcontact0
+    {
+      padding-left:0px;  
+    }
+    .minHeight
+    {
+        min-height:200px !important;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:50px !important;
+    }
+    .ass-text-size1{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1rem !important; 
+        color:black !important;
+    }
+    .ass-text-size{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size: 1.2rem !important;
+        color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 8px 45px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.4rem !important;
+}
+    .iconHeight
+{
+    height:8vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 70px !important;
+        font-size: 3.2rem;
+    }
+    .acase {
+        color: #5a5a5a;
+        padding-left: 98px;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .fsLarge
+    {
+        font-size: 2.8rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 25px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 40px;
+    }
+    .imglap {
+        width: 1000px !important;
+    }
+}
+.span123:hover
+    {
+     color:rgba(13, 66, 130, 1) !important;
+    }
+@media(min-width: 1400px) 
+    {
+        .hnavbar a:after
+    {
+        bottom: -3px !important;
+    }
+    .header .header_content_collapse .navigation_menu .navbar_nav li .dropdown-menu li a.nav-link, .default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li .dropdown-menu li a.nav-link
+    {
+            font-weight: 500 !important;
+            font-size:18px;
+    }
+        .marRight
+        {
+            margin-right:10px !important;
+        }
+        .brnn
+        {
+            display:none;
+        }
+        
+        .pNavbarRightSet {padding-top: 5px !important;font-size: 12px !important;line-height: 18px !important;}
+        .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+        .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 500;
+                line-height: 32px;
+        }
+        .minHeightApart
+        {
+            min-height:467px;
+        }
+        .navLinkPageActive
+        {
+            text-align: center;
+            border-radius: 50px;
+            width: 100px;
+            margin: auto;
+            background-image: linear-gradient(to right, #34cbb7, #0d89c8);
+            width: 38px;
+            height: 3px;
+            margin-top:5px;
+        }
+        .logoSize
+            {
+                width:200px !important;
+            }
+        .serheadingdeskfs
+        {
+            color: white;
+            font-size: 26px;
+            font-weight: 400;
+        }
+         .serimgHeight {
+                background-size: cover;
+                min-height: 614px;
+                max-height: 665px;
+            }
+        .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 3.5rem;
+            padding-right: 0px;
+        }
+        .inCountpFs
+        {
+            font-size:20px !important;
+            
+        }
+        .inCountSpanFs
+        {
+            font-size:40px !important;
+            
+        }
+          .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 619px;
+               max-height: 1000px;
+    }
+    .fullscreenAbout {
+      object-fit: cover !important;
+      width: 100% !important;
+      /* min-height: 419px; */
+      /* max-height: 387px; */
+      height: 100% !important;
+    }
+    .themeSliderHeadingSet {
+          
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:3.1rem; 
+            font-family:'Outfit'; 
+            line-height:4.5rem; 
+            margin-top: -1rem;
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -76px;
+        width: 75px;
+    }
+    .plcontact0
+    {
+      padding-left:0px;  
+    }
+    .ass-text-size1{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1.3rem !important;
+        color:black !important;
+    }
+    .minHeight
+    {
+        min-height:185px !important;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:55px !important;
+    }
+    .ass-text-size{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1.3rem !important;
+        color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 10px 52px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.5rem !important;
+}
+    .iconHeight
+    {
+        height:9vh;
+    }
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 74px !important;
+        font-size: 3.5rem;
+    }
+    .acase {
+        color: #5a5a5a;
+        padding-left: 109px;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 25px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .fsLarge
+    {
+        font-size: 3rem;
+    }
+    .mt50 {
+        padding-top: 50px;
+    }
+    .imglap {
+        width: 1200px !important;
+    }
+     .tabIconRightSet
+    {
+        right: 38px !important;
+        top: 236px !important;
+    }
+}
+@media(min-width: 992px) and (max-width: 1126px)
+{
+    .set:nth-child(1){
+            bottom: 120px !important;  
+        }
+        .set:nth-child(2){
+            bottom: 120px !important;
+            right:20px !important; 
+        }
+        .set:nth-child(3){
+            top: 150px !important;
+        }
+        .set:nth-child(4){
+            top: 150px !important;
+            right:20px !important;  
+        }
+}
+.titleService {
+    font-weight: 700;
+    font-size: 14px !important;
+    padding-top: 5px;
+}
+
+.gptwImgSet {
+    position: absolute;
+    top: 98px;
+    right: 20px;
+}
+
+.authSelsSet {
+    position: absolute;
+    top: 269px;
+}
+
+.authSelsSetDiv {
+    padding: 5px 20px 0px 5px;
+    background-color: white;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+
+.authSelsSetDivFlex {
+    display: flex;
+}
+
+.serviceHeading {
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.themebg {
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+}
+
+.service_content {
+
+    letter-spacing: 1px;
+    line-height: 30px;
+
+}
+
+.lightbg {
+    background: linear-gradient(323deg, #F3F4F6 0%, #F3F6F9 61%, #F3F6F9 100%);
+}
+
+.p0new {
+    padding: 0px 0px 0px 0px !important;
+    min-height: 223px;
+}
+
+.contactAddressI1 {
+    color: #29C1B2;
+    font-size: 35px;
+}
+
+.contactAddressI2 {
+    color: #E26E8C;
+    font-size: 35px;
+}
+
+.contactAddressI3 {
+    color: #8C5EC6;
+    font-size: 35px;
+}
+
+.serBg1 {
+    background-image: url(assets/images/service/SalesforceCloudServices.png);
+}
+
+.plight {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pl10 {
+    padding-right: 10px;
+}
+
+.pl20 {
+    padding-right: 20px;
+}
+
+.pl0 {
+    padding-left: 0px;
+}
+
+.imgHeiAdg {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.mtminus20 {
+    margin-top: -20px;
+}
+
+
+.imgdiv {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    right: 0;
+}
+
+
+.textCaseStudy {
+    text-align: center;
+    width: 50%;
+}
+
+.pCase {
+    font-size: 15px !important;
+    line-height: 21px;
+    color: #3b3b3b;
+}
+
+.hCase {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+
+
+.caseSubHeading {
+    padding: 25px 10px 8px 15px;
+}
+
+.caseSubHeadingp {
+    padding: 5px 24px 15px 11px;
+}
+
+
+
+
+
+.fs-psmall {
+    font-size: 12px;
+}
+
+.imglap {
+    width: 1000px;
+}
+
+
+.btn-three {
+	color: #000000;
+	transition: all 0.5s;
+	position: relative;
+}
+.btn-three::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.3s;
+}
+.btn-three:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-three::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(255,255,255,0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
+
+.heightSetCase
+{
+    max-height: 115px !important;
+}
+.heightSetCaseNav
+{
+    max-height: 91px !important;
+}
+.acase1
+{
+    padding-left: 30px;
+    color: #5a5a5a;
+}
+.caseAssetsServiceBG
+{
+    background-color:white;
+}
+.caseAssetsServiceBG:hover
+{
+    background:linear-gradient(323deg, #F3F4F6 0%, #F3F6F9 61%, #F3F6F9 100%);
+    
+}
+.footerAddress{
+    font-size: 18px;
+    font-weight: 400;
+}
+ 
+
+    
+    .mn-24
+    {
+    margin-top:-24px;
+    }
+    .Borderclr1
+    {
+        border: 2px solid #29C1B2;
+        border-radius: 8px;
+    }
+    .Borderclr2
+    {
+        border: 2px solid #E26E8C;
+        border-radius: 8px;
+    }
+    .Borderclr3
+    {
+        border: 2px solid #B163C9;  }
+.reveal {
+            position: relative;
+            transform: translateX(150px);
+            opacity: 0;
+            transition: 1s all ease;
+        }
+
+        .reveal.active {
+            transform: translateX(0);
+            opacity: 1;
+        }
+.h2SetWhite {
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+/*explore_btn*/
+.explore_btn{
+    padding: 15px 25px;
+    font-size:25px;
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.h2Setblack {
+    color: 252525;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bg_service_1 {
+    background: linear-gradient(95deg, rgb(41 193 178 / 25%) 0%, rgb(107 207 197 / 19%) 100%);
+}
+
+.bg_service_2 {
+    background: linear-gradient(95deg, rgb(226 110 140 / 27%) 0%, rgb(245 183 199 / 22%) 100%);
+}
+
+.bg_service_3 {
+    background: linear-gradient(95deg, rgb(177 99 201 / 26%) 0%, rgb(211 162 227 / 27%) 100%);
+}
+.bg_service_4h {
+   background: linear-gradient(95deg, #ffd8a9 0%, rgb(254 235 213) 100%);
+}
+.bg_service_4 {
+    background: linear-gradient(95deg, #dd7a013b 0%, #e8ac6230 100%);
+}
+
+.serviceTitle {
+    /* padding-bottom: 20px; */
+    color: #202020;
+    font-weight: 500px;
+}
+
+.service-btn {
+    padding: 5px 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-weight: 400;
+    box-shadow: 10px 10px 20px #d4d4d4;
+
+}
+
+.theme-btn-Set {
+    padding: 5px 15px;
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 400;
+    box-shadow: 10px 10px 20px #d4d4d4;
+}
+
+.theme-btn-Set-white {
+    padding: 5px 15px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: 400;
+    box-shadow: 10px 10px 20px #d4d4d4;
+    margin-left: 27px;
+}
+
+
+
+.pNavbarRightSetMobile {
+
+    font-size: 8px !important;
+
+    line-height: 9px !important;
+}
+
+
+.themeBtnSet {
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+}
+
+
+
+.themeSliderHeadingSetMobile {
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px !important;
+}
+
+.ptextSetHeroSec {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px !important;
+}
+
+
+
+.sliderTransbutton01 {
+    background: linear-gradient(95deg, rgba(41, 193, 178, 0.2) 0%, rgba(107, 207, 197, 0.2) 100%) !important;
+
+}
+
+.sliderTransbutton02 {
+    background: linear-gradient(95deg, rgba(226, 110, 140, 0.4) 0%, rgba(245, 183, 199, 0.4) 100%) !important;
+   
+}
+
+.sliderTransbutton04 {
+    background: linear-gradient(95deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%) !important;
+
+}
+
+.sliderTransbutton05 {
+    background: linear-gradient(95deg, #ffd49f 0%, #ffefdb 100%) !important;
+
+}
+
+@media (max-width: 576px) {
+    .feturesNone {
+        display: none;
+    }
+    .paddlr0inMobile
+    {
+        padding:0px;
+    }
+    
+
+}
+
+@media (min-width: 576px) {
+    .feturesLapNone {
+        display: none;
+    }
+
+}
+@media (min-width: 500px) 
+{
+    
+    .aboutPadding
+    {
+        padding: 31px 5px 0px 30px;
+        text-align:left;
+    }
+    .displFlex
+    {
+        display:flex;
+    }
+    
+    .txtDiv {
+        position: absolute;
+        width: 80%;
+        top: 10%;
+        right: 10%;
+    }
+
+    .abouthero {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-image: url('../../../images/case/bg1.png');
+    }
+
+    .logopadleft {
+        padding-left: 35px;
+    }
+
+    .aboutHeading {
+        font-weight: 500;
+        font-size: 51px;
+        line-height: 72px;
+        color: white;
+    }
+
+    .atag {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .lifs12 {
+        font-size: 16px !important;
+        text-indent:-14px;
+    }
+
+   
+
+    .float-endnew {
+        float: right !important;
+    }
+
+    .ml0 {
+        padding-left: 0px;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+    .servicePadd {
+        padding: 15px 10px 10px 15px;
+    }
+
+    .mar3 {
+        margin-right: 20px;
+    }
+
+    .socialmediafb {
+        color: rgb(75, 105, 177);
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .socialmediainst {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        font-size: 35px;
+        color: white;
+        padding: 7px 14px !important;
+    }
+
+    .socialmedialinkedin {
+        color: #0678B6;
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .socialmediatwitter {
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .socialmediayoutube {
+        color: #E83F3A;
+        font-size: 35px;
+        padding: 7px 14px !important;
+    }
+
+    .mrService {
+        margin-right: 20px;
+    }
+
+    .mlService {
+        margin-right: 20px;
+    }
+
+    .pIcon {
+        padding: 8px 20px;
+    }
+
+    .pl0 {
+        padding-left: 0px;
+    }
+
+    .custMar {
+        margin-top: 1rem !important;
+    }
+
+    .containerCustService {
+        max-width: 1170px;
+        padding: 0px 15px;
+    }
+
+    .marTopServiceDesk {
+        margin-top: 1rem !important;
+    }
+
+    .serviceHovernew {
+        transition: transform 0.5s ease-in-out ;
+    }
+
+    .serviceHovernew:hover {
+        transform: scale(1.1);
+        /* transform: skew(5deg, 5deg); */
+        /* transform:rotate(5deg); */
+    }
+
+    .disLapNone {
+        display: none;
+    }
+
+    .header.style_three .navbar_outer,
+    .default_sickty_heaad.style_three .navbar_outer {
+        position: relative;
+        padding: 7px 0px;
+        background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+        /* background: var(--primary-color-one); */
+    }
+
+}
+
+@media (max-width: 324px)
+{
+    .casemtmnew
+        {
+            margin-bottom:200px !important;
+        }
+    .pt365sc
+    {
+        padding-top:150px !important;
+    }
+    .inCountpFs
+    { 
+            font-size: 8px !important; 
+    }
+    .inCountSpanFs
+    {
+        font-size: 9px !important; 
+    }
+    .authSelsSet { 
+    position: absolute;
+    top: 200px !important;
+}
+.fsSetSm
+{
+    font-size:10px !important;
+}
+.fsSerSm
+{
+    font-size:10px !important;
+}
+    
+}
+@media (min-width: 325px)and (max-width: 365px)
+{
+    .casemtmnew
+        {
+            margin-bottom:200px !important;
+        }
+    .pt365sc
+    {
+        padding-top:150px !important;
+    }
+    .inCountpFs
+    { 
+            font-size: 10px !important;
+    }
+    .inCountSpanFs
+    {
+        font-size: 21px !important; 
+    }
+    .authSelsSet { 
+    position: absolute;
+    top: 239px !important;
+}
+.fsSetSm
+{
+    font-size:12px !important;
+}
+.fsSerSm
+{
+    font-size:10px !important;
+}
+}
+
+@media (max-width: 365px) and (max-width: 500px)
+{
+    .casemtmnew
+        {
+            margin-bottom:200px !important;
+        }
+    .130sc
+    {
+        display:none !important;
+    }
+    .pt365sc
+    {
+        padding-top:50px !important;
+    }
+    .set:nth-child(1){
+        bottom: -56px !important;
+    }
+    .set:nth-child(2){
+        bottom: -320px !important;
+    }
+    .set:nth-child(3){
+        bottom: -622px !important;
+    }
+    .set:nth-child(4){
+        bottom: -837px !important;
+    }
+}
+@media (max-width: 500px) 
+{
+    .casemtmnew
+        {
+            margin-bottom:200px !important;
+        }
+    .casetopmargin
+    {
+        margin-top:30px;
+    }
+    .te{
+        font-size: 15px !important;
+        font-weight: 300;
+        letter-spacing: 0em;
+        text-align: left;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 35px;
+    } 
+    .nat{
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFF;
+        line-height: 40px;
+        }
+    .mare
+    {
+        margin: 8px !important ;
+        color:red!important;
+    }
+
+    .paddcasehero
+    {
+        padding: 20px ;
+        text-align: center !important;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+
+    }
+    .box1{
+        border: 1px solid #29c1b2;
+        padding: 15px;
+        height: auto;
+        display: flex;
+        margin-top: 20px;
+        border-radius: 10px;
+        align-items: center;
+    }
+    
+    .bg{
+        background: #29c1b2;
+        border-radius: 50%;
+        width: 20%;
+        height: 20%;
+        text-align: center;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+    .box3{
+        border-bottom:7px solid #29c1b2;
+        border-radius: 5px;
+        box-shadow: 0.5px 1px 1px 1px;
+        text-align: center;
+        padding-top: 500px;
+        padding-bottom: 2%;
+    }
+    .text{
+        padding-top: 15px;
+    }
+    #text,#text1{
+        padding-top: 0px;
+    }
+    .bob1{
+        top:310px
+    }
+    #bg1{
+        background: #29c1b2;
+        text-align: center;
+        border-radius: 50%;
+        padding-top:5px ;
+        height: 50px;
+        width: 112px;
+        font-size: 25px;
+    }
+    #bg2{
+        background: #29c1b2;
+        text-align: center;
+        border-radius: 50%;
+        padding-top:5px ;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+    }
+    #bg3{
+        background: #29c1b2;
+        text-align: center;
+        border-radius: 50%;
+        padding-top:5px ;
+        height: 50px;
+        width: 95px;
+        font-size: 25px;
+    }
+    #bg4{
+        background: #29c1b2;
+        text-align: center;
+        border-radius: 50%;
+        padding-top:5px ;
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+    }
+    .outcricle{
+        max-height: 78px;
+        margin-top: 10px;
+    }
+    #outcricle,#outcricle1{
+        height: 90%;
+        
+    }
+    .bg1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .bob1{
+        top:284px
+    }
+    .bob2{
+        top:471px
+    }
+    .bob3{
+        top: 430px !important;
+    }
+    .image1{
+        bottom:250px;
+    }
+    .image2{
+        bottom:440px;
+    }
+    .image3{
+        bottom:476px;
+    }
+    .back{
+        height: 822px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .set{
+        padding: 20px;
+        
+        left:0px;
+    }
+    .set:nth-child(1){
+        bottom: -56px;
+    }
+    .set:nth-child(2){
+        bottom: -308px;
+    }
+    .set:nth-child(3){
+        bottom: -561px;
+    }
+    .set:nth-child(4){
+        bottom: -809px;
+    }
+    #dg1{
+        width:165px !important;
+    }
+    #dg2{
+        width:230px!important;
+    }
+    #dg3{
+        width:132px!important;
+    }
+    #dg4{
+        width:232px!important;
+    }
+    .t-center
+    {
+        text-align: center;
+    }
+    .padd0case
+    {
+        padding: 0px 20px;
+    }
+    .positionRelativemobile
+    {
+        position: relative;
+    }
+    .productUsemobile
+    {
+        position: absolute;
+        top: 535px;
+        left: 0px;
+    }
+
+    .btnCenterCase
+    {
+        text-align: center;
+    }
+    .caseHeroPadding
+        {
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .pt365sc
+    {
+        padding-top:120px ;
+    }
+    .aboutPadding
+    {
+        padding: 0px;
+        text-align:left;
+    }
+    .displFlex
+    {
+        display:block;
+    }
+    
+    .service_box.style_four .service_content .image_box_full
+    {
+            position: relative !important;
+            overflow: hidden !important;
+            border-radius: 10px !important;
+            width: 100% !important;
+            top: -31px !important;
+    }
+    .aboutHeroTBp
+        {
+            padding:20px 0px 5px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 300;
+                text-align: justify !important;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height: 260px;
+        }
+    .pleftrigt5
+    {
+        padding:0px 5px;
+    }
+    .service_box.style_four .service_contentMobile
+    {
+        padding:10px 10px 5px 10px !important;
+    }
+    .gptwlogo
+    {
+            position: relative;
+            top: -51px;
+            width: 53px;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:40px !important;
+    }
+    .fs-mobile
+    {
+        font-size:1.1rem;
+    }
+    .service-btn-squre {
+    padding: 6px 28px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .iconHeight
+{
+    height:6vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 55px !important;
+        font-size: 2.2rem;
+    }
+    .fsLarge
+    {
+        font-size: 2rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 7px 15px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 15px;
+    }
+    .tabIconRightSet {
+        right: 23px !important;
+        top: 133px !important;
+    }
+
+    .acase {
+        color: #5a5a5a;
+        padding-left: 27px !important;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .txtDiv {
+        position: absolute;
+        width: 80%;
+        top: 12%;
+        right: 10%;
+    }
+
+    .abouthero {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        background-size: cover;
+        background-image: url('../../../images/case/bg1.png');
+    }
+
+    .brnone {
+        display: none;
+    }
+
+    .aboutHeading {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40px;
+        color: white;
+    }
+
+    .serimgHeight {
+        background-size: cover;
+        min-height: 178px;
+        max-height: 665px;
+    }
+
+    .text-left {
+        text-align: left !important;
+    }
+
+    .servicePadd {
+        padding: 15px 10px 10px 15px;
+        min-height: 140px;
+    }
+
+    .mar3 {
+        margin-right: 13px;
+    }
+
+    .socialmediafb {
+        color: rgb(75, 105, 177);
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .socialmediainst {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        font-size: 35px;
+        color: white;
+        padding: 4px 9px !important;
+    }
+
+    .socialmedialinkedin {
+        color: #0678B6;
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .socialmediatwitter {
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .socialmediayoutube {
+        color: #E83F3A;
+        font-size: 35px;
+        padding: 4px 9px !important;
+    }
+
+    .get br {
+        display: none;
+    }
+
+    .get {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    .pIcon {
+        padding: 3px 13px;
+    }
+
+    .pt5 {
+        padding-top: 8px;
+    }
+
+    .pb5 {
+        padding-bottom: 10px;
+    }
+
+    .marTopServiceDesk {
+        margin-top: .25rem !important;
+    }
+
+    .serSecRadius {
+        border-radius: 5px !important;
+    }
+
+    .pr {
+        padding: 0px 5px 0px 0px;
+    }
+
+    .pl {
+        padding: 0px 0px 0px 5px;
+    }
+
+    .disNone {
+        display: none !important;
+    }
+
+    .header.style_three .navbar_outer,
+    .default_sickty_heaad.style_three .navbar_outer {
+        position: relative;
+        padding: 7px 0px;
+        background-color: white;
+    }
+
+    .serviceSecMobileView {
+        display: flex;
+        height: 65px !important;
+        padding: 8px 18px 10px 18px !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .fontsetMobileViewSer {
+        text-align: left;
+        line-height: 16px !important;
+        padding-left: 10px;
+        font-size: 13px !important;
+    }
+
+    .imgsetMobileViewSer {
+        padding-top: 5px;
+        width: 39px !important;
+    }
+
+    .custMar {
+        /* margin-top: 1rem !important; */
+    }
+
+    .float-endnew {
+        margin-top: 30px;
+        
+        float: left !important;
+    }
+
+    .lifs12 {
+        font-size: 12px !important;
+        text-indent:-10px;
+    }
+
+    .atag {
+        font-size: 8px;
+    }
+
+    .pl20 {
+        padding-right: 10px !important;
+    }
+
+    .logopadleft {
+        padding-left: 86px;
+    }
+    .ass-text-size1{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1rem !important;
+}
+}
+
+@media(min-width: 500px) and (max-width: 768px)
+{
+    .back{
+        height: 823px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+       
+    }
+    .set:nth-child(1){
+        bottom:62px
+    }
+    .set:nth-child(2){
+        bottom:-180px;
+    }
+    .set:nth-child(3){
+        bottom:-470px;
+    }
+    .set:nth-child(4){
+        bottom:-760px;
+    }
+    .box1{
+            border: 1px solid #29c1b2;
+            padding: 15px;
+            height: auto;
+            display: flex;
+            margin-top: 20px;
+            border-radius: 10px;
+            align-items: center;
+        }
+     .te{
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right:10px;
+            color: #FFFFFF;
+            line-height: 40px;
+        } 
+        .nat{
+            font-size: 60px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            line-height: 70px;
+            }
+        .caseHeroPadding
+        {
+            margin-left: 54px;
+            margin-top: 8px;
+        }
+        .paddcasehero
+        {
+            padding: 15px 15px 15px 25px ;
+        }
+    .heromt-Set{
+        margin-top: 112px;
+    }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 400;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    .themeSliderHeadingSet {
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2rem; 
+            font-family:'Outfit'; 
+            line-height:3.2rem; 
+            margin-top: -1.2rem;
+        }
+   
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:45px !important;
+    }
+    .ass-text-size{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    line-height: 20px;
+    }
+    .ass-text-size1{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .service-btn-squre {
+    padding: 7px 35px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.1rem !important;
+    }
+    .iconHeight
+    {
+        height:6vh;
+    }
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 60px !important;
+        font-size: 2.5rem;
+    }
+    .acase {
+        color: #5a5a5a;
+        padding-left: 55px;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .fsLarge
+    {
+        font-size: 2.3rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 10px 17px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 20px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) 
+{
+    
+    .box1{
+            border: 1px solid #29c1b2;
+            padding: 15px;
+            height: auto;
+            display: flex;
+            margin-top: 20px;
+            border-radius: 10px;
+            align-items: center;
+        }
+     .te{
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right:10px;
+            color: #FFFFFF;
+            line-height: 40px;
+        } 
+        .nat{
+            font-size: 60px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            line-height: 70px;
+            }
+        .caseHeroPadding
+        {
+            margin-left: 54px;
+            margin-top: 8px;
+        }
+        .paddcasehero
+        {
+            padding: 15px 15px 15px 25px ;
+        }
+    .heromt-Set{
+        margin-top: 112px;
+    }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 400;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+  
+    .logoSize
+    {
+        width:200px !important;
+    }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 1.8rem;
+            padding-right: 0px;
+        }
+    .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 502px;
+               max-height: 587px;
+    }
+    .fullscreenAbout {
+      object-fit: cover;
+      width:100%;
+      min-height: 302px;
+      max-height: 387px;
+    }
+   .themeSliderHeadingSet {
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2.3rem; 
+            font-family:'Outfit'; 
+            line-height:3.5rem; 
+            margin-top: -1.2rem;
+          
+            
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -76px;
+        width: 75px;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:45px !important;
+    }
+    .ass-text-size{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    line-height: 17px;
+    }
+    .ass-text-size1{
+    flex: 1; /* This allows the text to expand and take up all available space */
+    overflow: hidden;
+    font-size:.8rem !important;
+    color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 7px 40px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.2rem !important;
+}
+    .iconHeight
+{
+    height:7vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 64px !important;
+        font-size: 2.8rem;
+    }
+    .fsLarge
+    {
+        font-size: 2.5rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 20px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 30px;
+    }
+
+    .imglap {
+        width: 700px !important;
+    }
+
+    .acase {
+        color: #5a5a5a;
+        padding-left: 55px !important;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .tabIconRightSet {
+        right: 24px !important;
+        top: 129px !important;
+    }
+}
+@media(min-width: 992px) and (max-width: 1200px) 
+{
+    .fixed-header .get_sticky_header
+    {
+        top: 73px !important;
+    }
+    .box1{
+            border: 1px solid #29c1b2;
+            padding: 15px;
+            height: auto;
+            display: flex;
+            margin-top: 20px;
+            border-radius: 10px;
+            align-items: center;
+        }
+     .te{
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right:10px;
+            color: #FFFFFF;
+            line-height: 40px;
+        } 
+        .nat{
+            font-size: 60px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            line-height: 70px;
+            }
+        .caseHeroPadding
+        {
+            margin-left: 54px;
+            margin-top: 8px;
+        }
+        .paddcasehero
+        {
+            padding: 15px 15px 15px 25px ;
+        }
+    .heromt-Set{
+        margin-top: 112px;
+    }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 400;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+    .navLinkPageActive
+    {
+        text-align: center;
+        border-radius: 50px;
+        width: 100px;
+        margin: auto;
+        background-image: linear-gradient(to right, #34cbb7, #0d89c8);
+        width: 38px;
+        height: 3px;
+        MARGIN-BOTTOM: 10PX;
+    }
+    .logoSize
+    {
+        width:200px !important;
+    }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 1.8rem;
+            padding-right: 0px;
+        }
+    .inCountpFs
+        {
+            font-size:20px !important;
+            
+        }
+        .inCountSpanFs
+        {
+            font-size:40px !important;
+            
+        }
+    .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 502px;
+               max-height: 587px;
+    }
+    .fullscreenAbout {
+      object-fit: cover;
+      width:100%;
+      min-height: 302px;
+      max-height: 387px;
+    }
+    .themeSliderHeadingSet {
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2.5rem; 
+            font-family:'Outfit'; 
+            line-height:3.8rem; 
+            margin-top: -1.2rem;
+          
+            
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -76px;
+        width: 75px;
+    }
+    .plcontact0
+    {
+      padding-left:0px;  
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:45px !important;
+    }
+    .ass-text-size{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1rem !important;
+        color:black !important;
+        line-height: 21px;
+    }
+    .ass-text-size1{
+        flex: 1.1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1rem !important;
+        color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 8px 40px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.3rem !important;
+}
+    .iconHeight
+{
+    height:7vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 65px !important;
+        font-size: 3rem;
+    }
+    .fsLarge
+    {
+        font-size: 2.5rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 22px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 40px;
+    }
+
+    .imglap {
+        width: 800px !important;
+    }
+
+    .acase {
+        color: #5a5a5a;
+        padding-left: 57px !important;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+   .tabIconRightSet
+    {
+        top: 155px !important;
+        right: 38px !important;
+    }
+}
+@media(min-width: 760px) and (max-width:1200px) 
+{
+    .contactNone
+    {
+        display:none !important;
+    }
+}
+@media(min-width: 1200px) and (max-width:1400px) 
+{
+    .casemtmnew
+        {
+            margin-bottom:20px !important;
+        }
+    .set:nth-child(1){
+            bottom: 120px;  
+        }
+        .set:nth-child(2){
+            bottom: 120px;
+            right:20px  
+        }
+        .set:nth-child(3){
+            top: 120px;
+        }
+        .set:nth-child(4){
+            top: 120px;
+            right:20px  
+        }
+    .box1{
+            border: 1px solid #29c1b2;
+            padding: 15px;
+            height: auto;
+            display: flex;
+            margin-top: 20px;
+            border-radius: 10px;
+            align-items: center;
+        }
+     .te{
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right:10px;
+            color: #FFFFFF;
+            line-height: 40px;
+        } 
+        .nat{
+            font-size: 60px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            line-height: 70px;
+            }
+        .caseHeroPadding
+        {
+            margin-left: 54px;
+            margin-top: 8px;
+        }
+        .paddcasehero
+        {
+            padding: 15px 15px 15px 25px ;
+        }
+    .service_box.style_four .service_content .image_box .imgDesk
+    {
+            width: 100%;
+            height: 180px;
+            -o-object-fit: cover;
+            object-fit: cover;
+    }
+    .heromt-Set{
+        margin-top: 105px;
+    }
+    .header .header_content_collapse .navigation_menu .navbar_nav li a.nav-link, .default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li a.nav-link
+    {
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 300;
+    }
+    .header.style_three .navbar_outer, .default_sickty_heaad.style_three .navbar_outerMobile
+    {
+        padding: 3px 0px;
+    }
+    .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+    .aboutUsfont_Set
+        {
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 32px;
+        }
+    .minHeightApart
+        {
+            min-height:467px;
+        }
+    .navLinkPageActive
+    {
+        text-align: center;
+        border-radius: 50px;
+        width: 100px;
+        margin: auto;
+        background-image: linear-gradient(to right, #34cbb7, #0d89c8);
+        width: 38px;
+        height: 3px;
+        MARGIN-BOTTOM: 10PX;
+    }
+    .logoSize
+    {
+        width:200px !important;
+    }
+    .serheadingdeskfs
+        {
+            color: white;
+            font-size: 26px;
+            font-weight: 400;
+        }
+    .serimgHeight {
+                background-size: cover;
+                min-height: 710px;
+                max-height: 800px;
+            }
+    .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 2rem;
+            padding-right: 0px;
+        }
+    .inCountpFs
+        {
+            font-size:16px !important;
+            
+        }
+        .inCountSpanFs
+        {
+            font-size:40px !important;
+            
+        }
+    .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 531px;
+               max-height: 700px;
+    }
+    .fullscreenAbout {
+      object-fit: cover;
+      width:100%;
+      min-height: 302px;
+      max-height: 387px;
+    }
+    .themeSliderHeadingSet {
+          
+            letter-spacing: 2px;
+            font-weight:800;
+            font-size:2.7rem; 
+            font-family:'Outfit'; 
+            line-height:4.1rem; 
+            margin-top: -1.2rem;
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -78px;
+        width: 62px;
+    }
+    .plcontact0
+    {
+      padding-left:0px;  
+    }
+    .minHeight
+    {
+        min-height: 200px !important;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:50px !important;
+    }
+    .ass-text-size1{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1rem !important; 
+        color:black !important;
+    }
+    .ass-text-size{
+        line-height: 20px;
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size: 1rem !important;
+        color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 8px 45px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.4rem !important;
+}
+    .iconHeight
+{
+    height:8vh;
+}
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 70px !important;
+        font-size: 3.2rem;
+    }
+    .acase {
+        color: #5a5a5a;
+        padding-left: 98px;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .fsLarge
+    {
+        font-size: 2.8rem;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 25px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .mt50 {
+        padding-top: 40px;
+    }
+    .imglap {
+        width: 1000px !important;
+    }
+   
+}
+@media(min-width: 1400px) 
+    {
+        #Features_scroll1 {
+    font-size: 125px;
+}
+        .casemtmnew
+        {
+            margin-bottom:20px !important;
+        }
+        .te{
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right:10px;
+            color: #FFFFFF;
+            line-height: 50px;
+        } 
+        .nat{
+            font-size: 71px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #FFFFFF;
+            line-height: 85px;
+            }
+        .caseHeroPadding
+        {
+            margin-left: 94px;
+            margin-top: 30px;
+        }
+        .paddcasehero
+        {
+            padding: 15px 15px 15px 48px ;
+        }
+        .box1{
+            border: 1px solid #29c1b2;
+            padding: 15px;
+            height: auto;
+            display: flex;
+            margin-top: 20px;
+            border-radius: 10px;
+            align-items: center;
+        }
+        #bg1{
+            background: #29c1b2;
+            text-align: center;
+            border-radius: 50%;
+            padding-top:5px ;
+            height: 50px;
+            width: 80px;
+            font-size: 25px;
+        }
+        #bg2{
+            background: #29c1b2;
+            text-align: center;
+            border-radius: 50%;
+            padding-top:5px ;
+            height: 50px;
+            width: 130px;
+            font-size: 25px;
+        }
+        #bg3{
+            background: #29c1b2;
+            text-align: center;
+            border-radius: 50%;
+            padding-top:5px ;
+            height: 50px;
+            width: 80px;
+            font-size: 25px;
+        }
+        #bg4{
+            background: #29c1b2;
+            text-align: center;
+            border-radius: 50%;
+            padding-top:5px ;
+            height: 50px;
+            width: 130px;
+            font-size: 25px;
+        }
+        .set:nth-child(1){
+            bottom: 120px;  
+        }
+        .set:nth-child(2){
+            bottom: 120px;
+            right:20px  
+        }
+        .set:nth-child(3){
+            top: 120px;
+        }
+        .set:nth-child(4){
+            top: 120px;
+            right:20px  
+        }
+        
+        
+        
+        
+        
+        
+        
+        .heromt-Set{
+        margin-top: 112px;
+    }
+        .aboutHeroTBp
+        {
+            padding:90px 0px 60px 0px;
+        }
+        .aboutUsfont_Set
+        {
+                font-size: 1.1rem;
+                font-weight: 400;
+                line-height: 32px;
+        }
+        .minHeightApart
+        {
+            min-height:467px;
+        }
+        .navLinkPageActive
+        {
+            text-align: center;
+            border-radius: 50px;
+            width: 100px;
+            margin: auto;
+            background-image: linear-gradient(to right, #34cbb7, #0d89c8);
+            width: 38px;
+            height: 3px;
+            margin-top:5px;
+        }
+        .logoSize
+            {
+                width:200px !important;
+            }
+        .serheadingdeskfs
+        {
+            color: white;
+            font-size: 26px;
+            font-weight: 400;
+        }
+         .serimgHeight {
+                background-size: cover;
+                min-height: 614px;
+                max-height: 665px;
+            }
+        .sliderheroPaddingtop
+        {
+            padding-left: 0px;
+            margin-top: 3.5rem;
+            padding-right: 0px;
+        }
+        .inCountpFs
+        {
+            font-size:20px !important;
+            
+        }
+        .inCountSpanFs
+        {
+            font-size:40px !important;
+            
+        }
+          .fullscreen {
+               object-fit: cover;
+               width:100%;
+               min-height: 619px;
+               max-height: 1000px;
+    }
+    .fullscreenAbout {
+      object-fit: cover !important;
+      width: 100% !important;
+      /* min-height: 419px; */
+      /* max-height: 387px; */
+      height: 100% !important;
+    }
+    .themeSliderHeadingSet {
+          
+            letter-spacing: 2px;
+            font-weight:600;
+            font-size:3.1rem; 
+            font-family:'Outfit'; 
+            line-height:4.5rem; 
+            margin-top: -1rem;
+        }
+    .gptwlogo
+    {
+        position: relative;
+        top: -77px;
+        width: 75px;
+    }
+    .plcontact0
+    {
+      padding-left:0px;  
+    }
+    .ass-text-size1{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1.3rem !important;
+        color:black !important;
+    }
+    .minHeight
+    {
+        min-height:185px !important;
+    }
+    .icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    width:55px !important;
+    }
+    .ass-text-size{
+        flex: 1; /* This allows the text to expand and take up all available space */
+        overflow: hidden;
+        font-size:1.3rem !important;
+        color:black !important;
+    }
+    .assScroll
+    {
+        max-height: 470px !important;
+        overflow-x: auto;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    }
+        .assScroll::-webkit-scrollbar { 
+            display: none;  
+        }
+    .service-btn-squre {
+    padding: 10px 52px;
+    background-color: white;
+    color: black;
+    font-size: 1.3rem !important;
+    font-weight: 600;
+    }
+    .caseSubHeading1{
+    padding: 15px 10px 0px 10px;
+    font-size: 1.5rem !important;
+}
+    .iconHeight
+    {
+        height:9vh;
+    }
+    .letsTalkHead
+    {
+        color:white;
+        line-height: 74px !important;
+        font-size: 3.5rem;
+    }
+    .acase {
+        color: #5a5a5a;
+        padding-left: 109px;
+        font-weight: 500;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .blueBtn {
+        color: white;
+        padding: 12px 25px;
+        font-weight: 400;
+        background: linear-gradient(95deg, #29C1B2 0%, #6BCFC5 100%);
+    }
+    .fsLarge
+    {
+        font-size: 3rem;
+    }
+    .mt50 {
+        padding-top: 50px;
+    }
+    .imglap {
+        width: 1200px !important;
+    }
+}
+.titleService {
+    font-weight: 700;
+    font-size: 14px !important;
+    padding-top: 5px;
+}
+
+.gptwImgSet {
+    position: absolute;
+    top: 98px;
+    right: 20px;
+}
+
+.authSelsSet {
+    position: absolute;
+    top: 269px;
+}
+
+.authSelsSetDiv {
+    padding: 5px 20px 0px 5px;
+    background-color: white;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+
+.authSelsSetDivFlex {
+    display: flex;
+}
+
+.serviceHeading {
+    line-height: 18px;
+    /* font-size: 16px; */
+    font-weight: 350;
+    margin-bottom: 6px;
+}
+
+.themebg {
+    background: linear-gradient(323deg, rgba(13, 66, 130, 1) 0%, rgba(2, 36, 77, 1) 61%, rgba(2, 36, 77, 1) 100%);
+}
+
+.service_content {
+
+    letter-spacing: 1px;
+    line-height: 30px;
+
+}
+
+.lightbg {
+    background: linear-gradient(323deg, #F3F4F6 0%, #F3F6F9 61%, #F3F6F9 100%);
+}
+
+.p0new {
+    padding: 0px 0px 0px 0px !important;
+    min-height: 223px;
+}
+
+.contactAddressI1 {
+    color: #29C1B2;
+    font-size: 35px;
+}
+
+.contactAddressI2 {
+    color: #E26E8C;
+    font-size: 35px;
+}
+
+.contactAddressI3 {
+    color: #8C5EC6;
+    font-size: 35px;
+}
+
+.serBg1 {
+    background-image: url(assets/images/service/SalesforceCloudServices.png);
+}
+
+.plight {
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pl10 {
+    padding-right: 10px;
+}
+
+.pl20 {
+    padding-right: 20px;
+}
+
+.pl0 {
+    padding-left: 0px;
+}
+
+.imgHeiAdg {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.mtminus20 {
+    margin-top: -20px;
+}
+
+
+.imgdiv {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    right: 0;
+}
+
+
+.textCaseStudy {
+    text-align: center;
+    width: 50%;
+}
+
+.pCase {
+    font-size: 15px !important;
+    line-height: 21px;
+    color: #3b3b3b;
+}
+
+.hCase {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+
+
+.caseSubHeading {
+    padding: 25px 10px 8px 15px;
+}
+
+.caseSubHeadingp {
+    padding: 5px 24px 15px 11px;
+}
+
+
+
+
+.fs-psmall {
+    font-size: 12px;
+}
+
+.imglap {
+    width: 1000px;
+}
+
+
+.btn-three {
+	color: #000000;
+	transition: all 0.5s;
+	position: relative;
+}
+.btn-three::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.3s;
+}
+.btn-three:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-three::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(255,255,255,0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
+
+.heightSetCase
+{
+    max-height: 115px !important;
+}
+.acase1
+{
+    padding-left: 30px;
+    color: #5a5a5a;
+}
+.caseAssetsServiceBG
+{
+    background-color:white;
+}
+.caseAssetsServiceBG:hover
+{
+    background:linear-gradient(323deg, #F3F4F6 0%, #F3F6F9 61%, #F3F6F9 100%);
+    
+}
+.footerAddress{
+    font-size: 18px;
+    font-weight: 400;
+}
+ 
+
+    
+    .mn-24
+    {
+    margin-top: -34px;
+    }
+    .Borderclr1
+    {
+        border: 2px solid #29C1B2;
+        border-radius: 8px;
+    }
+    .Borderclr2
+    {
+        border: 2px solid #E26E8C;
+        border-radius: 8px;
+    }
+    .Borderclr3
+    {
+        border: 2px solid #B163C9;
+        border-radius: 8px;
+    }
+    .Borderclr4
+    {
+        border: 2px solid #00A1E0;
+        border-radius: 8px;
+    }
+    .serHeadingMobille
+    {
+            color: white;
+            font-weight: 300;
+            font-size: 22px;
+            text-align: center; 
+            line-height: 30px;
+    }
+    .inptypeSubBtn
+    {
+            width: 111px !important;
+        padding: 0px !important;
+        border: 0px !important;
+        background-color: transparent !important;
+        margin: 0px !important;
+        height: 25px !important;
+}
+    }
+    
+    
+    
+        border-radius: 8px;
+    }
+    .Borderclr4
+    {
+        border: 2px solid #00A1E0;
+        border-radius: 8px;
+    }
+    .serHeadingMobille
+    {
+            color: white;
+            font-weight: 300;
+            font-size: 22px;
+            text-align: center;
+            line-height: 25px;
+            padding: 10px 0px;
+    }
+    .inptypeSubBtn
+    {
+            width: 111px !important;
+        padding: 0px !important;
+        border: 0px !important;
+        background-color: transparent !important;
+        margin: 0px !important;
+        height: 25px !important;
+}
+    
+    
+    .a:hover
+    {
+        color:WHITE !important;
+    }
+    .fw-400
+    {
+        font-weight:400;
+    }
+     .fw-300
+    {
+        font-weight:300;
+    }
+    
+    
+    
+    /*navbar Hover*/
+    
+    
+    .hnavbar a:after,
+    .hnavbar a:before {
+      transition: all .5s;
+    }
+    .hnavbar a span:hover {
+      transition: all .5s;
+      color: #cbcbcb;
+    }
+    .prBtn:hover
+    {
+        color:white !important;
+    }
+    
+    /* stroke */
+   .hnavbar a {
+      position: relative;
+    }
+    .hnavbar a:after {
+      position: absolute;
+      bottom: 2px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: '.';
+      color: transparent;
+      background: linear-gradient(323deg, #34cbb7 0%, #0d89c8 61%, #34cbb7 100%);
+      height: 1px;
+    }
+    .hnavbar a:hover:after {
+      width: 100%;
+    }
+    .sActive
+    {
+        color:red !imprtant;
+    }
+    .f-left
+    {
+        float:left !imprtant;
+    }
+    .pFontStyleSetForP
+    {
+        line-height: 32px !important;
+        font-weight:500 !imprtoant;
+        letter-spacing:0px !important;
+        font-size:16px !important;
+    }
+    
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 12));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 12));
+  }
+}
+.sliderMy {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  
+}
+.sliderMy::before, .sliderMy::after {
+  content: "";
+  height:200px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.sliderMy::after {
+  right: 0; 
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.sliderMy::before {
+  left: 0;
+  top: 0;
+}
+.sliderMy .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  height: 50px;
+  width: calc(400px * 12);
+}
+.sliderMy .slide {
+  height: 100px;
+  width: 250px;
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 12));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 12));
+  }
+}
+.sliderMyMobile {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  
+}
+.sliderMyMobile::before, .sliderMyMobile::after {
+  content: "";
+  height:200px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.sliderMyMobile::after {
+  right: 0; 
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.sliderMyMobile::before {
+  left: 0;
+  top: 0;
+}
+.sliderMyMobile .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  height: 50px;
+  width: calc(400px * 12);
+}
+.sliderMyMobile .slide {
+  height: 100px;
+  width: 190px;
+}
+
+
+
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.sliderMyKey {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  
+}
+.sliderMyKey::before, .sliderMyKey::after {
+  content: "";
+  height:200px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.sliderMyKey::after {
+  right: 0; 
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.sliderMyKey::before {
+  left: 0;
+  top: 0;
+}
+.sliderMyKey .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  height: 150px;
+  width: calc(250px * 14);
+}
+.sliderMyKey .slide {
+  height: 125px;
+  width: 250px;
+}
+
+
+
+
+
+
+
+@media(max-width: 374px)
+{
+    .fsLarge
+    {
+        font-size:1.5rem !important;
+        line-height:34px;
+        margin:0px !important;
+    } 
+    .newfs
+    {
+        font-size:1rem !important;
+    }
+}

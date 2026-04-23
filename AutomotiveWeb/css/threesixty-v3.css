@@ -1,0 +1,172 @@
+.container1 .threesixty {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative
+}
+
+.container1 .threesixty .threesixty_images {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.container1 .threesixty .threesixty_images img {
+    height: auto;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.container1 .threesixty .threesixty_images img.previous-image {
+    visibility: hidden;
+    width: 0
+}
+
+.container1 .threesixty .threesixty_images img.current-image {
+    margin: auto;
+    max-width: 600px;
+    visibility: visible;
+    width: 100%
+}
+
+.container1 .threesixty .spinner {
+    background: #333;
+    background: #000000b3;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    width: 60px
+}
+
+.container1 .threesixty .spinner span {
+    color: #fff;
+    display: block;
+    font-family: Arial, MS Trebuchet, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: center
+}
+
+.container1 .threesixty .nav_bar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 11
+}
+
+.container1 .threesixty .nav_bar a {
+    display: block;
+    float: left;
+    height: 32px;
+    text-indent: -99999px;
+    width: 32px
+}
+
+.container1 .threesixty .nav_bar a.nav_bar_play {
+    background-position: 0 0
+}
+
+.container1 .threesixty .nav_bar a.nav_bar_previous {
+    background-position: 0 -73px
+}
+
+.container1 .threesixty .nav_bar a.nav_bar_stop {
+    background-position: 0 -37px
+}
+
+.container1 .threesixty .nav_bar a.nav_bar_next {
+    background-position: 0 -104px
+}
+
+.container1 .threesixty1 {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative
+}
+
+.container1 .threesixty1 .threesixty_images1 {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.container1 .threesixty1 .threesixty_images1 img {
+    height: auto;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.container1 .threesixty1 .threesixty_images1 img.previous-image {
+    visibility: hidden;
+    width: 0
+}
+
+.container1 .threesixty1 .threesixty_images1 img.current-image {
+    visibility: visible;
+    width: 100%
+}
+
+.container1 .threesixty1 .spinner1 {
+    background: #333;
+    background: #000000b3;
+    border-radius: 5px;
+    display: block;
+    height: 30px;
+    margin: 0 auto;
+    width: 60px
+}
+
+.container1 .threesixty1 .spinner1 span {
+    color: #fff;
+    display: block;
+    font-family: Arial, MS Trebuchet, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 30px;
+    text-align: center
+}
+
+.container1 .threesixty1 .nav_bar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 11
+}
+
+.container1 .threesixty1 .nav_bar a {
+    display: block;
+    float: left;
+    height: 32px;
+    text-indent: -99999px;
+    width: 32px
+}
+
+.container1 .threesixty1 .nav_bar a.nav_bar_play {
+    background-position: 0 0
+}
+
+.container1 .threesixty1 .nav_bar a.nav_bar_previous {
+    background-position: 0 -73px
+}
+
+.container1 .threesixty1 .nav_bar a.nav_bar_stop {
+    background-position: 0 -37px
+}
+
+.container1 .threesixty1 .nav_bar a.nav_bar_next {
+    background-position: 0 -104px
+}
+
+.container1:-webkit-full-screen {
+    background: #fff;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 200px;
+    width: 100%
+}

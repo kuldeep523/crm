@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pre-Chat Form with Session Timeout</title>
+  <style>
+    label {
+      display: block;
+      margin: 8px 0 4px;
+    }
+    input {
+      width: 300px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Pre-Chat Form</h2>
+  <form id="prechatForm">
+    <label>First Name: <input type="text" name="_firstName" /></label>
+    <label>Last Name: <input type="text" name="_lastName" /></label>
+    <label>Email: <input type="email" name="_email" /></label>
+    <label>Phone: <input type="text" name="Phone" /></label>
+    <label>Origin: <input type="text" name="Origin" /></label>
+    <label>Employer: <input type="text" name="Employer" /></label>
+    <label>Employer Code: <input type="text" name="Employer_Code" /></label>
+    <label>Application Platform Name: <input type="text" name="Application_Platform_Name" /></label>
+    <label>Receipt Code: <input type="text" name="Receipt_Code" /></label>
+    <label>Platform Link: <input type="text" name="Platform_Link" /></label>
+    <label>Work Start Date: <input type="date" name="Work_Start_Date" /></label>
+    <label>Work Location Code: <input type="text" name="Work_Location_Code" /></label>
+    <label>US Citizen: <input type="text" name="US_Citizen" /></label>
+    <label>Hire Date: <input type="date" name="Hire_Date" /></label>
+  </form>
+
+  <script type="text/javascript">
+    // --- Global Timers ---
+    var warningPromptTimerId;
+    var finalTimeoutTimerId;
+    var preChatActivityTimerId;
+
+    // --- Configuration ---
+    const SESSION_DURATION_MS = 2 * 60 * 1000;
+    const PROMPT_BEFORE_FINAL_TIMEOUT_MS = 1 * 60 * 1000;
+    const TIME_UNTIL_PROMPT_MS = SESSION_DURATION_MS - PROMPT_BEFORE_FINAL_TIMEOUT_MS;
+    const PRECHAT_INACTIVITY_TIMEOUT_MS = 20 * 1000;
+
+    // --- Session Management ---
+    function resetSessionActivityTimers() {
+      console.log('User activity detected. Resetting session timers.');
+      clearTimeout(warningPromptTimerId);
+      clearTimeout(finalTimeoutTimerId);
+      warningPromptTimerId = setTimeout(showActivityWarningPrompt, TIME_UNTIL_PROMPT_MS);
+      finalTimeoutTimerId = setTimeout(handleFinalSessionTimeout, SESSION_DURATION_MS);
+    }
+
+    function showActivityWarningPrompt() {
+      console.log('Showing inactivity warning.');
+      if (confirm('Are you still there? Your session is about to expire. Click OK to continue.')) {
+        resetSessionActivityTimers();
+      } else {
+        handleFinalSessionTimeout();
+      }
+    }
+
+    function handleFinalSessionTimeout() {
+      console.log('Session timed out.');
+      alert('Your chat session has timed out.');
+
+      if (window.embeddedservice_bootstrap?.userVerificationAPI) {
+        try {
+          window.embeddedservice_bootstrap.userVerificationAPI.clearSession();
+        } catch (err) {
+          console.error('Error clearing session:', err);
+        }
+      }
+
+      const event = new CustomEvent('onEmbeddedMessagingConversationClosed');
+      window.dispatchEvent(event);
+    }
+
+    // --- Pre-chat Inactivity Management ---
+    function startPreChatInactivityTimer() {
+      console.log('Starting pre-chat inactivity timer.');
+      clearTimeout(preChatActivityTimerId);
+      preChatActivityTimerId = setTimeout(handlePreChatInactivity, PRECHAT_INACTIVITY_TIMEOUT_MS);
+    }
+
+    function handlePreChatInactivity() {
+      console.log('User inactive on pre-chat form.');
+      alert('You have been inactive on the pre-chat form. Please start over.');
+    }
+
+    function clearPreChatInactivityTimer() {
+      clearTimeout(preChatActivityTimerId);
+    }
+
+    // --- Pre-chat Field Management ---
+    function updatePrechatFields() {
+      const form = document.getElementById('prechatForm');
+      const formData = new FormData(form);
+      const visibleFields = {};
+      const hiddenFields = {};
+
+      for (let [key, value] of formData.entries()) {
+        if (["_firstName", "_lastName", "_email", "Phone"].includes(key)) {
+          visibleFields[key] = { value: value, isEditableByEndUser: true };
+        } else {
+          hiddenFields[key] = value;
+        }
+      }
+
+      if (embeddedservice_bootstrap?.prechatAPI?.setVisiblePrechatFields) {
+        embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields(visibleFields);
+      }
+
+      if (embeddedservice_bootstrap?.prechatAPI?.setHiddenPrechatFields) {
+        embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields(hiddenFields);
+      }
+    }
+
+    // --- Initialization ---
+    function initEmbeddedMessaging() {
+      try {
+        embeddedservice_bootstrap.settings.language = 'en_US';
+
+        window.addEventListener("onEmbeddedMessagingReady", () => {
+          console.log('MIAW ready.');
+          updatePrechatFields();
+          document.getElementById('prechatForm').addEventListener('input', updatePrechatFields);
+          resetSessionActivityTimers();
+        });
+
+        window.addEventListener('onEmbeddedMessagingPreChatLoaded', () => {
+          console.log('Pre-chat form loaded.');
+          startPreChatInactivityTimer();
+        });
+
+        window.addEventListener('onEmbeddedMessagingPreChatSubmitted', () => {
+          console.log('Pre-chat form submitted.');
+          clearPreChatInactivityTimer();
+          resetSessionActivityTimers();
+        });
+
+        window.addEventListener('onEmbeddedMessageSent', () => {
+          resetSessionActivityTimers();
+          clearPreChatInactivityTimer();
+        });
+
+        window.addEventListener('onEmbeddedMessagingEndChat', () => {
+          console.log('Chat session ended.');
+        });
+
+        window.addEventListener('onEmbeddedMessagingConversationClosed', () => {
+		 window.location.reload();
+          console.log('Conversation closed.');
+        });
+
+        window.addEventListener('onEmbeddedMessagingDisconnected', () => {
+          console.log('Chat disconnected.');
+        });
+
+        embeddedservice_bootstrap.init(
+          '00DWr000005QPQB',
+          'MIAW_Embedded_Test_1',
+          'https://efx4biz--miawdev.sandbox.my.site.com/ESWMIAWEmbeddedTest11749106106599',
+          {
+            scrt2URL: 'https://efx4biz--miawdev.sandbox.my.salesforce-scrt.com'
+          }
+        );
+        // Global activity listeners
+        document.addEventListener('mousemove', resetSessionActivityTimers);
+        document.addEventListener('keypress', resetSessionActivityTimers);
+
+      } catch (err) {
+        console.error('Error initializing Embedded Messaging:', err);
+      }
+    }
+  </script>
+
+ <script type='text/javascript'
+          src='https://efx4biz--miawdev.sandbox.my.site.com/ESWMIAWEmbeddedTest11749106106599/assets/js/bootstrap.min.js'
+          onload='initEmbeddedMessaging()'>
+  </script>
+</body>
+</html>

@@ -1,0 +1,1045 @@
+.carousel-root .card {
+    background-color: #f8f8f8;
+    border: .1rem solid silver;
+    border-radius: .5rem;
+    margin: 1rem auto
+}
+
+.small_button {
+    background: #ed1c24;
+    padding: 15px 30px !important
+}
+
+.otp_button,
+.small_button {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin: 15px auto 0;
+    width: auto
+}
+
+.otp_button {
+    background: #000;
+    padding: 15px 20px !important
+}
+
+#msform .action-button {
+    margin-bottom: 40px;
+    padding: 15px 30px !important;
+    width: auto !important
+}
+
+.otp_wrapper button {
+    font-family: Arial !important
+}
+
+.booking_deatils .button,
+.otp_wrapper button {
+    background: #ed1c24 !important;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin: 15px auto 0;
+    padding: 15px 20px !important;
+    width: auto
+}
+
+.booking_deatils .button {
+    font-weight: 500
+}
+
+img.iconleft {
+    bottom: 0 !important;
+    float: left;
+    left: 15px;
+    position: absolute;
+    top: 17px !important
+}
+
+#message {
+    color: #ed1c24;
+    font-size: 10px;
+    margin-top: -16px;
+    position: absolute
+}
+
+section.signinnsignup {
+    background: #fff;
+    padding: 10px 20px !important
+}
+
+.login-snip {
+    padding: 5px 11px 50px 69px !important
+}
+
+.login-space {
+    margin-top: 0
+}
+
+#msform input.next.action-button.paymentOption {
+    display: inline !important
+}
+
+.julyaugust,
+.stepnumbering {
+    line-height: 30px !important
+}
+
+.julyaugust {
+    padding: 16px 0 !important;
+    right: unset !important
+}
+
+.rv400-bike-wrapper {
+    min-height: 240px !important
+}
+
+.rv400-bike-switch input[type=radio]:after {
+    background-color: #000;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    left: -1px;
+    position: relative;
+    top: -2px;
+    visibility: visible;
+    width: 15px
+}
+
+.rv400-bike-switch input[type=radio]:checked:after {
+    background-color: red !important;
+    background-image: url(../images/red_big.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    height: 36px;
+    left: -5px;
+    position: relative;
+    top: -9px;
+    visibility: visible;
+    width: 86px
+}
+
+.rv400-bike-switch input[type=radio] {
+    width: auto !important
+}
+
+.rv300-bike-switch ul li,
+.rv400-bike-switch ul li {
+    margin: 20px 0 !important;
+    text-align: left !important
+}
+
+.rv300-bike-switch,
+.rv400-bike-switch {
+    top: 50px !important
+}
+
+.login-space .group .button {
+    background: #000;
+    margin-top: 0;
+    width: auto
+}
+
+.disabled {
+    background: #cbcbcb !important
+}
+
+.banner-search-box form {
+    margin: 8px 0 0
+}
+
+.banner-search-box {
+    margin-bottom: 10px;
+    margin-top: 0 !important
+}
+
+.cancel_biooking {
+    color: #fff !important;
+    cursor: pointer
+}
+
+.bookingcancelaation table span {
+    color: unset !important;
+    display: block;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 0 !important;
+    text-align: unset !important
+}
+
+#msform .action-button,
+.unlockcity_inner .action-button {
+    background: #ed1c24
+}
+
+.thankyoupage h2 {
+    color: green;
+    font-size: 24px;
+    text-align: center
+}
+
+.thankyoupage img {
+    width: 40px
+}
+
+.thankyoupage {
+    padding: 10px 0
+}
+
+.thankyoupage p {
+    margin-bottom: 0
+}
+
+.pdf_wrapper {
+    float: right;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 10
+}
+
+.thankyou_heading {
+    margin-bottom: 0
+}
+
+.thankyou_heading p {
+    line-height: 25px;
+    margin-top: 25px;
+    padding: 0 5rem
+}
+
+.testride_submit_wrapper {
+    display: block !important;
+    opacity: 1 !important;
+    text-align: center
+}
+
+.testride_submit_wrapper .action-button {
+    display: inline-block;
+    margin-left: 20px
+}
+
+.otp_btn_wrapper {
+    display: inline-block !important;
+    opacity: 1 !important;
+    width: auto
+}
+
+.testride_submit_wrapper .name-group {
+    margin: 0 auto 10px;
+    width: 200px
+}
+
+.testride_submit_wrapper #otp {
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 175px
+}
+
+.testride_banner {
+    background: url(../images/Test_Ride.png) no-repeat !important;
+    background-size: cover;
+    height: 400px
+}
+
+.table-bordered td {
+    border: 1px solid #dee2e6 !important;
+    vertical-align: middle
+}
+
+#msform img.iconleft.emails {
+    top: 22px !important
+}
+
+#contactus .action-button {
+    background: #ed1c24;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 15px 30px !important;
+    width: auto !important
+}
+
+#contactus .otp_btn_wrapper {
+    display: block !important;
+    margin: 0 auto !important;
+    text-align: center
+}
+
+#contactus .otp_wraper {
+    text-align: center
+}
+
+.otp_field {
+    margin: 0 auto
+}
+
+.contactus-parttwo img.iconleft {
+    bottom: 12px !important;
+    float: left;
+    left: 24px;
+    position: absolute;
+    top: unset !important
+}
+
+.testride_submit_wrapper #message {
+    color: #ed1c24;
+    font-size: 10px;
+    left: 0;
+    margin-left: 16px;
+    margin-top: 3px;
+    padding-left: 0;
+    position: absolute;
+    text-align: left;
+    width: 250px
+}
+
+#contactus select.form-control {
+    padding-left: 35px
+}
+
+.cancel_biooking a {
+    color: #fff
+}
+
+.dealer_search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.dealer_search input,
+.dealer_search select {
+    margin-right: 20px;
+    min-width: auto
+}
+
+.hhh .btn {
+    background-color: unset !important;
+    border: none !important;
+    color: #000 !important
+}
+
+.hhh .btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+#header_dropdown {
+    left: 20px !important
+}
+
+.float-right.hhh {
+    right: -310px !important
+}
+
+.editcancel {
+    color: #fff;
+    cursor: pointer
+}
+
+.cancelled a {
+    cursor: default
+}
+
+#editprofile_table th,
+td {
+    padding: 15px
+}
+
+#editprofile_table .cancel_biooking {
+    padding-top: 20px
+}
+
+ul.bookinglunckow li {
+    padding-top: 0 !important
+}
+
+.modelfour li {
+    font-size: 18px;
+    line-height: 36px
+}
+
+.modelfour li i {
+    font-size: 20px
+}
+
+.swiper-wrapper {
+    -webkit-transform: translate3d(0, -580px, 0);
+    transform: translate3d(0, -580px, 0);
+    -webkit-transition-duration: 1.5s !important;
+    transition-duration: 1.5s !important
+}
+
+.owl-carousel .disabled {
+    background: none !important
+}
+
+.our-motorcycles #productinfo .owl-prev {
+    left: unset !important;
+    top: 0 !important
+}
+
+#msform {
+    margin-top: 0
+}
+
+main {
+    background: #fff !important
+}
+
+.form-group {
+    margin-bottom: 10px
+}
+
+#msform fieldset {
+    padding-bottom: 0
+}
+
+.loginimgH img {
+    height: auto !important;
+    width: 100%
+}
+
+.login-box {
+    min-height: auto !important
+}
+
+.login-snip label {
+    margin-bottom: 20px
+}
+
+.login-snip {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-align: center
+}
+
+#msform input,
+.login-space select.form-control {
+    background: #f8f8f8;
+    border-color: #e6e6e6
+}
+
+#progressbar {
+    padding: 20px 55px
+}
+
+.testdrive {
+    margin-right: 30px
+}
+
+.hhh .dropdown {
+    margin-top: -3px
+}
+
+.checkboxihave a {
+    color: #ed1c24
+}
+
+.fs-title {
+    color: #000;
+    margin: 10px 0 !important
+}
+
+.checkboxihave {
+    margin-bottom: 0;
+    margin-top: -10px
+}
+
+.rv300-bike-switch,
+.rv400-bike-switch {
+    top: 15px !important
+}
+
+.product_page .product_blacktheme label {
+    border: 1px solid #9b9595;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 21px;
+    text-align: center
+}
+
+.product_page .product_blacktheme label:hover {
+    background-color: #ccc
+}
+
+.rv300-bike-switch .colorname,
+.rv400-bike-switch .colorname {
+    text-align: center;
+    width: auto !important
+}
+
+.rv300-bike-switch ul,
+.rv400-bike-switch ul {
+    margin: 35px 0
+}
+
+.tableNSEbooking {
+    margin-top: 20px
+}
+
+.form-card.bgwhitenone .row.bookib-proceS {
+    margin-bottom: 0
+}
+
+.deliveryslot {
+    margin-top: 0;
+    padding-top: 20px
+}
+
+.tableNSE {
+    margin-top: 20px
+}
+
+.fixed .book-now a,
+.fixed .revolt-booknowtext a,
+.fixed .testdrive-wrapper a {
+    padding: 8px 17px
+}
+
+.footernotify a {
+    color: #fff !important;
+    margin: 0 0 30px !important
+}
+
+.spacingTop {
+    padding-top: 25px
+}
+
+.unlock_bg {
+    background: #fff
+}
+
+.unlockcity_inner .form-card {
+    padding: 0 44px
+}
+
+.checkboxihave label {
+    margin-top: 12px;
+    padding-left: 0;
+    width: 15px
+}
+
+.whatsaapform {
+    margin-top: 2px
+}
+
+.unlockcity_inner #msform .action-button {
+    background: #ed1c24;
+    background-position: 100%;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial !important;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 15px 51px;
+    width: 160px
+}
+
+.testride_submit_wrapper .action-button {
+    margin-bottom: 20px !important
+}
+
+.contactus-grey-box {
+    background-color: #fff !important
+}
+
+.contactus-white-box {
+    margin: 0 auto !important
+}
+
+.contactus-partone-contentbox {
+    margin: unset !important;
+    margin-top: 20px !important
+}
+
+.contactus-partone-contentbox h3 {
+    margin: 0 auto !important;
+    padding-bottom: 20px
+}
+
+.login-space input,
+.login-space textarea {
+    padding-left: 40px
+}
+
+.new-contact .form-control {
+    background-color: #f8f8f8 !important;
+    border-color: #e6e6e6 !important
+}
+
+.contactus-grey .contactus-whatsapp p {
+    margin-bottom: 10px !important;
+    margin-top: 0 !important
+}
+
+.contactus-whatsapp {
+    margin: 0
+}
+
+.contactus-label {
+    margin-left: 0 !important;
+    padding-left: 0 !important
+}
+
+.contactus-partone-content img {
+    height: 40px;
+    width: 40px
+}
+
+.new-contact {
+    padding: 10px 30px !important
+}
+
+.kilometershare {
+    margin-top: 50px !important
+}
+
+main {
+    min-height: 600px
+}
+
+.mainproduct_banner_box {
+    float: left;
+    margin-top: 30%;
+    padding: unset !important
+}
+
+.mainproduct_heading_btn {
+    float: left
+}
+
+.nav-tabs {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.collapse_box_content {
+    padding-left: 85px !important
+}
+
+.most_readmore {
+    background: #ed1c24;
+    border: 1px solid #ed1c24;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+    padding: 8px 27px
+}
+
+.most_readmore:hover {
+    color: #ccc
+}
+
+.rv400-pagination {
+    color: #847a7a !important;
+    top: 80px !important
+}
+
+.sidenav .closebtn {
+    color: #fff !important;
+    cursor: pointer
+}
+
+.swiper-pagination-bullet-active {
+    height: 10px !important;
+    width: 10px !important
+}
+
+body {
+    background: #fff !important
+}
+
+.slide_tabs_wrp .tabbar_sld_ftr.Headlamp-nav li.active {
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    position: relative
+}
+
+.nav-item .active {
+    background: #fff !important;
+    border-right: 1px solid #0000 !important;
+    color: #000 !important
+}
+
+.pedal_mode .active {
+    background: #000 !important;
+    border: 1px solid #000 !important;
+    margin-right: 5px !important
+}
+
+.revolt-booknowtext a {
+    padding: 8px 30px !important
+}
+
+.text-center2 {
+    position: relative;
+    z-index: 11
+}
+
+.aibikeinfo h3 {
+    padding-bottom: 20px
+}
+
+.locationwise {
+    min-height: 220px;
+    width: 250px !important
+}
+
+.delhilocations {
+    margin: 40px auto
+}
+
+.tabsection .nav-tabs .nav-link.active {
+    background: #ed1c24 !important;
+    border-radius: 0 !important;
+    border-right: 1px solid #fff !important;
+    color: #fff !important
+}
+
+.tabsection .nav-tabs .nav-link.active:hover {
+    border-right: 1px solid #0000 !important
+}
+
+.owl_cstm_style .swiper-wrapper .swiper-slide.swiper-slide-active .fr_slide {
+    top: 30% !important;
+    width: 400px !important
+}
+
+.combination_slide {
+    top: 19% !important
+}
+
+.charginbox h5 {
+    text-shadow: none !important
+}
+
+.special_banner {
+    background-position: 100% !important
+}
+
+.tabsystem_usp img {
+    width: 40%
+}
+
+.usp_bike {
+    width: 60% !important
+}
+
+.usp_chagingtab .active {
+    background-color: #000 !important;
+    border-right: 1px solid #0000 !important;
+    color: #fff !important
+}
+
+.mapfilterbox {
+    border: 1px solid #707070;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 56px;
+    margin-right: 24px;
+    padding: 5px 12px 5px 15px;
+    width: 276px
+}
+
+.mapfilterbox h5 {
+    color: #6d6e71;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding-left: 10px
+}
+
+.mapfilterbox i {
+    margin-right: 5px
+}
+
+#msform input {
+    padding: 8px 14px 8px 15px !important
+}
+
+input[type=checkbox] {
+    margin-right: 10px
+}
+
+.personalinfo h5 {
+    width: 100% !important
+}
+
+#editprofile_table th,
+.table thead th,
+td {
+    padding-left: 0 !important
+}
+
+.tableNSEbooking td {
+    background: #fff !important
+}
+
+.tableNSEbooking td,
+.tableNSEbooking th {
+    padding-left: 10px !important
+}
+
+.banner-search-box form button {
+    right: -28px
+}
+
+.notifyh1 {
+    color: #000 !important;
+    font-size: 54px !important;
+    text-shadow: none !important;
+    top: 50%
+}
+
+.gallery_wrapper {
+    margin: 0 auto !important;
+    width: 80% !important
+}
+
+#demo2 .active,
+#demo2 .carousel-item,
+#demo3 .active,
+#demo3 .carousel-item,
+div#demo2,
+div#demo3 {
+    height: 175px
+}
+
+.video-modalbox .close {
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    opacity: 1;
+    padding: 4px;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    top: 65px;
+    width: 43px;
+    z-index: 9999
+}
+
+.woot-widget-bubble.woot-elements--right {
+    bottom: 80px
+}
+
+.notify_error {
+    margin-bottom: 10px;
+    position: relative !important
+}
+
+.admin_table table,
+.admin_table table td,
+.admin_table table th {
+    font-size: 11px !important
+}
+
+.admin_table table .sl-btn {
+    font-size: 11px;
+    margin: 0;
+    padding: 0
+}
+
+.admin_table table .sl-btn:hover {
+    background-color: initial;
+    color: #333;
+    padding: 0
+}
+
+.top-info {
+    background: #464646;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 0
+}
+
+.top-info .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.top-info .row,
+.top-info-left,
+.top-info-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.top-info-list {
+    margin: 0
+}
+
+.top-info a,
+.top-info a:hover {
+    color: #fff
+}
+
+.need-support {
+    color: #fff;
+    font-size: 14px
+}
+
+.top-info-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.top-info-list li i {
+    color: #86faf2;
+    font-size: 16px;
+    margin-right: 5px
+}
+
+.top-right-info img {
+    max-width: 25px
+}
+
+.top-right-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: right;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.top-info-list small {
+    margin-left: 5px
+}
+
+.top-right-info span {
+    margin-right: 10x
+}
+
+.top-right-info img {
+    margin-left: 10px
+}
+
+.top-info-list label {
+    margin-bottom: 0
+}
+
+.top-info-left label,
+.top-info-left span {
+    display: inline-block
+}
+
+.thank-you .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.thank-you {
+    background: #f7f7f7
+}
+
+.mob-supp {
+    display: none
+}
+
+.desk-supp {
+    display: inline-block
+}
+
+.oppo {
+    background-color: #f5f5f5;
+    border: 1.5px dotted red;
+    border-radius: 5px;
+    border-spacing: 15px 160px;
+    font-size: 16px;
+    font-weight: 600;
+    font-weight: 400;
+    padding: 15px 20px
+}
+
+.oppp1 {
+    font-weight: 700;
+    padding-bottom: 10px
+}
+
+.oppop2 {
+    font-size: 15px
+}
+
+@media (max-width:1024px) {
+    .top-info-list li {
+        margin-left: 10px
+    }
+    .top-info {
+        font-size: 11px
+    }
+    .need-support {
+        font-size: 12px
+    }
+}
+
+@media (max-width:991px) {
+    .top-info-list {
+        font-size: 12px
+    }
+    .top-info-left label,
+    .top-info-left span {
+        display: none
+    }
+    .need-support {
+        font-size: 12px
+    }
+}
+
+@media (max-width:767px) {
+    .top-info-left {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .top-info-left label,
+    .top-info-left span {
+        display: none
+    }
+    .top-right-info {
+        text-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .top-right-info img {
+        max-width: 20px
+    }
+    .mob-supp {
+        display: inline-block
+    }
+    .desk-supp {
+        display: none
+    }
+}
