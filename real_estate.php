@@ -17,6 +17,7 @@ include('include/header.php'); ?>
                 element.classList.remove("card-img-overlay12");
                 console.log(`Resolution: ${width} x ${height}`);
             } 
+            
             else if (width == 1536 && height == 791) {
                
                 element.classList.add("transformative_overlay");
@@ -4791,6 +4792,7 @@ Our experts share insights on improving real estate operations, optimising chann
                         </div>
                     </form>
             </div>
+
             <script>
                 function label_area(){
                     document.getElementById("label_area").className='phone_up';
@@ -4808,6 +4810,7 @@ Our experts share insights on improving real estate operations, optimising chann
                         });
                 
             </script>
+            
             <div class="col-lg-1"></div>
             <div class="col-lg-5 pt-4 px-3">
                <div class="d-flex">
